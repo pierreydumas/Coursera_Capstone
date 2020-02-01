@@ -1,0 +1,4816 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    <script>L_PREFER_CANVAS = false; L_NO_TOUCH = false; L_DISABLE_3D = false;</script>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.2.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawgit.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <style> #map_79c5ff91cb68473b9ef4b8377375763c {
+                position : relative;
+                width : 100.0%;
+                height: 100.0%;
+                left: 0.0%;
+                top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_79c5ff91cb68473b9ef4b8377375763c" ></div>
+        
+</body>
+<script>    
+    
+
+            
+                var bounds = null;
+            
+
+            var map_79c5ff91cb68473b9ef4b8377375763c = L.map(
+                                  'map_79c5ff91cb68473b9ef4b8377375763c',
+                                  {center: [45.764,4.8357],
+                                  zoom: 13,
+                                  maxBounds: bounds,
+                                  layers: [],
+                                  worldCopyJump: false,
+                                  crs: L.CRS.EPSG3857
+                                 });
+            
+        
+    
+            var tile_layer_ddbc4f84242242ddbf889c08f9c51aa3 = L.tileLayer(
+                'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
+                {
+  "attribution": null,
+  "detectRetina": false,
+  "maxZoom": 18,
+  "minZoom": 1,
+  "noWrap": false,
+  "subdomains": "abc"
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+        
+    
+            var circle_marker_9b1bf3cb9d4f4f279536e3e5604c9180 = L.circleMarker(
+                [45.790664,4.84298],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 47.734381488434344,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_ff0881c1a01a4494bbbbc807ae465e07 = L.popup({maxWidth: '300'});
+
+            
+                var html_43085edb52094b80aaa2296f13af8cc1 = $('<div id="html_43085edb52094b80aaa2296f13af8cc1" style="width: 100.0%; height: 100.0%;">College Charles Senard</div>')[0];
+                popup_ff0881c1a01a4494bbbbc807ae465e07.setContent(html_43085edb52094b80aaa2296f13af8cc1);
+            
+
+            circle_marker_9b1bf3cb9d4f4f279536e3e5604c9180.bindPopup(popup_ff0881c1a01a4494bbbbc807ae465e07);
+
+            
+        
+    
+            var circle_marker_23c9806441a2473b97bf4bb034de2e03 = L.circleMarker(
+                [45.78465150223246,4.853081703186035],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 36.40224093918939,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_481ba4e81dcd40529f1dba033de1abf9 = L.popup({maxWidth: '300'});
+
+            
+                var html_a0368482b2614f5fb95af08eb323726f = $('<div id="html_a0368482b2614f5fb95af08eb323726f" style="width: 100.0%; height: 100.0%;">Health Club, Hilton Lyon Hotel</div>')[0];
+                popup_481ba4e81dcd40529f1dba033de1abf9.setContent(html_a0368482b2614f5fb95af08eb323726f);
+            
+
+            circle_marker_23c9806441a2473b97bf4bb034de2e03.bindPopup(popup_481ba4e81dcd40529f1dba033de1abf9);
+
+            
+        
+    
+            var circle_marker_d048a30887f542179f255731fe97d041 = L.circleMarker(
+                [45.78511,4.855372],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 36.01380843250159,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_4adc4f3efc394e139710c51a591e0d04 = L.popup({maxWidth: '300'});
+
+            
+                var html_e67d76ed171242bd8a4b99b6ccaefb98 = $('<div id="html_e67d76ed171242bd8a4b99b6ccaefb98" style="width: 100.0%; height: 100.0%;">Business &amp; Decision</div>')[0];
+                popup_4adc4f3efc394e139710c51a591e0d04.setContent(html_e67d76ed171242bd8a4b99b6ccaefb98);
+            
+
+            circle_marker_d048a30887f542179f255731fe97d041.bindPopup(popup_4adc4f3efc394e139710c51a591e0d04);
+
+            
+        
+    
+            var circle_marker_b4fe00554646457eaa27f26d663eac91 = L.circleMarker(
+                [45.785289,4.85686],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 35.709441871691205,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_c7a4215c7f7d4f6e84d0fe6e88857a45 = L.popup({maxWidth: '300'});
+
+            
+                var html_7015507af65940cd94c65dc65d8d281c = $('<div id="html_7015507af65940cd94c65dc65d8d281c" style="width: 100.0%; height: 100.0%;">Fitness Center @Crowne Plaza</div>')[0];
+                popup_c7a4215c7f7d4f6e84d0fe6e88857a45.setContent(html_7015507af65940cd94c65dc65d8d281c);
+            
+
+            circle_marker_b4fe00554646457eaa27f26d663eac91.bindPopup(popup_c7a4215c7f7d4f6e84d0fe6e88857a45);
+
+            
+        
+    
+            var circle_marker_ebd475674b4a4a429220b8ef1d6e3b75 = L.circleMarker(
+                [45.76724508,4.87930767],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 26.099795623594375,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_5cbebc8cdd30475f8d2e19826b6fab68 = L.popup({maxWidth: '300'});
+
+            
+                var html_bf4d044e84b0475ea44b4cb173918e1c = $('<div id="html_bf4d044e84b0475ea44b4cb173918e1c" style="width: 100.0%; height: 100.0%;">Body Gym Center, 40 Avenue Henri Barbusse</div>')[0];
+                popup_5cbebc8cdd30475f8d2e19826b6fab68.setContent(html_bf4d044e84b0475ea44b4cb173918e1c);
+            
+
+            circle_marker_ebd475674b4a4a429220b8ef1d6e3b75.bindPopup(popup_5cbebc8cdd30475f8d2e19826b6fab68);
+
+            
+        
+    
+            var circle_marker_0c30c34caa944e3390ab6c5b0a8c6544 = L.circleMarker(
+                [45.73639301,4.83694367],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 25.775610185019765,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_54490a328dd0470f98fedcf3ddb44147 = L.popup({maxWidth: '300'});
+
+            
+                var html_49eabe6271714b3894fec655edb8c6a9 = $('<div id="html_49eabe6271714b3894fec655edb8c6a9" style="width: 100.0%; height: 100.0%;">Digital College Lyon, 181-203 Avenue Jean Jaurès</div>')[0];
+                popup_54490a328dd0470f98fedcf3ddb44147.setContent(html_49eabe6271714b3894fec655edb8c6a9);
+            
+
+            circle_marker_0c30c34caa944e3390ab6c5b0a8c6544.bindPopup(popup_54490a328dd0470f98fedcf3ddb44147);
+
+            
+        
+    
+            var circle_marker_c6772dc1dd6c49e5a7d45cad195a774a = L.circleMarker(
+                [45.754386769805265,4.811571836471558],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 24.149142674355794,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_d796052a2f91475780a3ae237b0d9eeb = L.popup({maxWidth: '300'});
+
+            
+                var html_02f1c9c5c9fa4cc6a1f5436b1844c48d = $('<div id="html_02f1c9c5c9fa4cc6a1f5436b1844c48d" style="width: 100.0%; height: 100.0%;">E.N.S.A.T.T Ecole Nationale Supérieure Arts et Techniques du Théatre, 2 Rue Soeur Bouvier</div>')[0];
+                popup_d796052a2f91475780a3ae237b0d9eeb.setContent(html_02f1c9c5c9fa4cc6a1f5436b1844c48d);
+            
+
+            circle_marker_c6772dc1dd6c49e5a7d45cad195a774a.bindPopup(popup_d796052a2f91475780a3ae237b0d9eeb);
+
+            
+        
+    
+            var circle_marker_52f5cbf2c8d74cf190b1ae88ac58af30 = L.circleMarker(
+                [45.73691624513031,4.833399350305974],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 24.124471377666993,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_d6f635d33f734b48a91967c71e7a69c4 = L.popup({maxWidth: '300'});
+
+            
+                var html_ff09ea078f6248e891ccb0e00ec7c9bd = $('<div id="html_ff09ea078f6248e891ccb0e00ec7c9bd" style="width: 100.0%; height: 100.0%;">Le Géant des Beaux-Arts Lyon, 12 Rue Clément Marot</div>')[0];
+                popup_d6f635d33f734b48a91967c71e7a69c4.setContent(html_ff09ea078f6248e891ccb0e00ec7c9bd);
+            
+
+            circle_marker_52f5cbf2c8d74cf190b1ae88ac58af30.bindPopup(popup_d6f635d33f734b48a91967c71e7a69c4);
+
+            
+        
+    
+            var circle_marker_01980c7b13de4b0dbb9f119f64f8af97 = L.circleMarker(
+                [45.776605919858355,4.874589549761398],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 23.620863551980445,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_36e35285baa54549b4b52698e1cf4248 = L.popup({maxWidth: '300'});
+
+            
+                var html_9b6dc9a07cd8431cb5e600b0c41ddfb0 = $('<div id="html_9b6dc9a07cd8431cb5e600b0c41ddfb0" style="width: 100.0%; height: 100.0%;">Pharmacie Des Arts, 29 rue de la Doua</div>')[0];
+                popup_36e35285baa54549b4b52698e1cf4248.setContent(html_9b6dc9a07cd8431cb5e600b0c41ddfb0);
+            
+
+            circle_marker_01980c7b13de4b0dbb9f119f64f8af97.bindPopup(popup_36e35285baa54549b4b52698e1cf4248);
+
+            
+        
+    
+            var circle_marker_7c9e0f994730482eb370f4779a438be4 = L.circleMarker(
+                [45.76193650596644,4.881746057209898],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21.67061729144931,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_806bf26e588e4997b31175ba3f967ecb = L.popup({maxWidth: '300'});
+
+            
+                var html_92994d7148e84a4181b96b7994a19536 = $('<div id="html_92994d7148e84a4181b96b7994a19536" style="width: 100.0%; height: 100.0%;">Conduite Center</div>')[0];
+                popup_806bf26e588e4997b31175ba3f967ecb.setContent(html_92994d7148e84a4181b96b7994a19536);
+            
+
+            circle_marker_7c9e0f994730482eb370f4779a438be4.bindPopup(popup_806bf26e588e4997b31175ba3f967ecb);
+
+            
+        
+    
+            var circle_marker_00678b76ae074d1dacc65baf7c08bba2 = L.circleMarker(
+                [45.737329,4.8265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 21.133081803659696,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_00184305cfb1482689c4fc2f5f290101 = L.popup({maxWidth: '300'});
+
+            
+                var html_885306be2fd04e87aed00270f23ac55f = $('<div id="html_885306be2fd04e87aed00270f23ac55f" style="width: 100.0%; height: 100.0%;">Beauté Center</div>')[0];
+                popup_00184305cfb1482689c4fc2f5f290101.setContent(html_885306be2fd04e87aed00270f23ac55f);
+            
+
+            circle_marker_00678b76ae074d1dacc65baf7c08bba2.bindPopup(popup_00184305cfb1482689c4fc2f5f290101);
+
+            
+        
+    
+            var circle_marker_d0e430f05bb94fda943e79b4dc1df22c = L.circleMarker(
+                [45.780409143060425,4.8268067836761475],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20.231084076408408,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_d4738fecef274469bfbcc49d1cfacd90 = L.popup({maxWidth: '300'});
+
+            
+                var html_e5a0c4f7995e4e12913397a45c7fdcae = $('<div id="html_e5a0c4f7995e4e12913397a45c7fdcae" style="width: 100.0%; height: 100.0%;">LIBS, Rue Bossuet</div>')[0];
+                popup_d4738fecef274469bfbcc49d1cfacd90.setContent(html_e5a0c4f7995e4e12913397a45c7fdcae);
+            
+
+            circle_marker_d0e430f05bb94fda943e79b4dc1df22c.bindPopup(popup_d4738fecef274469bfbcc49d1cfacd90);
+
+            
+        
+    
+            var circle_marker_4098935b8ca145e6af5d4b060ded09a1 = L.circleMarker(
+                [45.74576313,4.86448552],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 20.14433300926524,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_0d5c7c4809ff464e92abd567ba986365 = L.popup({maxWidth: '300'});
+
+            
+                var html_9adeb4517c3f4055b999a9f335592911 = $('<div id="html_9adeb4517c3f4055b999a9f335592911" style="width: 100.0%; height: 100.0%;">Optical Center LYON - FRÈRES LUMIÈRE, 39 Avenue des Frères Lumière</div>')[0];
+                popup_0d5c7c4809ff464e92abd567ba986365.setContent(html_9adeb4517c3f4055b999a9f335592911);
+            
+
+            circle_marker_4098935b8ca145e6af5d4b060ded09a1.bindPopup(popup_0d5c7c4809ff464e92abd567ba986365);
+
+            
+        
+    
+            var circle_marker_2893ec87fbd444f9b219e004791205a1 = L.circleMarker(
+                [45.77330780029297,4.85127592086792],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 19.740717620545535,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_15cdd3b08d534706aa20bac6719a4c63 = L.popup({maxWidth: '300'});
+
+            
+                var html_276f80aa4598459b98eb158a5f685488 = $('<div id="html_276f80aa4598459b98eb158a5f685488" style="width: 100.0%; height: 100.0%;">Collège Fénelon</div>')[0];
+                popup_15cdd3b08d534706aa20bac6719a4c63.setContent(html_276f80aa4598459b98eb158a5f685488);
+            
+
+            circle_marker_2893ec87fbd444f9b219e004791205a1.bindPopup(popup_15cdd3b08d534706aa20bac6719a4c63);
+
+            
+        
+    
+            var circle_marker_4b48d6a1a6654790a20fc741be0d39ca = L.circleMarker(
+                [45.75428543858746,4.804677079806338],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 19.048351826559298,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_67b880474a2e448bbbbda19c3964fd37 = L.popup({maxWidth: '300'});
+
+            
+                var html_e02fa89edec54402ac87fe02a210f671 = $('<div id="html_e02fa89edec54402ac87fe02a210f671" style="width: 100.0%; height: 100.0%;">Collège Charcot, Rue Cdt Charcot</div>')[0];
+                popup_67b880474a2e448bbbbda19c3964fd37.setContent(html_e02fa89edec54402ac87fe02a210f671);
+            
+
+            circle_marker_4b48d6a1a6654790a20fc741be0d39ca.bindPopup(popup_67b880474a2e448bbbbda19c3964fd37);
+
+            
+        
+    
+            var circle_marker_354e5d3f13134e2cb35161d79e5b7d81 = L.circleMarker(
+                [45.77938636646928,4.832197398147288],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 18.82052059648168,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_aac82f94382049a7af90e03c01442bed = L.popup({maxWidth: '300'});
+
+            
+                var html_1704277502354067be47e707d348ce5f = $('<div id="html_1704277502354067be47e707d348ce5f" style="width: 100.0%; height: 100.0%;">Collège St Denis</div>')[0];
+                popup_aac82f94382049a7af90e03c01442bed.setContent(html_1704277502354067be47e707d348ce5f);
+            
+
+            circle_marker_354e5d3f13134e2cb35161d79e5b7d81.bindPopup(popup_aac82f94382049a7af90e03c01442bed);
+
+            
+        
+    
+            var circle_marker_14e504b4fb9c46cab1290464ea8f8bee = L.circleMarker(
+                [45.741316,4.842984],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.61238498977109,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_0fc6f5a9e9d5487b8bf7c17d9d187f8f = L.popup({maxWidth: '300'});
+
+            
+                var html_ceb1ecdf5c3d4db397e1e521cf23855f = $('<div id="html_ceb1ecdf5c3d4db397e1e521cf23855f" style="width: 100.0%; height: 100.0%;">LYON ARTS DANCE CENTER, 22, passage Faugier</div>')[0];
+                popup_0fc6f5a9e9d5487b8bf7c17d9d187f8f.setContent(html_ceb1ecdf5c3d4db397e1e521cf23855f);
+            
+
+            circle_marker_14e504b4fb9c46cab1290464ea8f8bee.bindPopup(popup_0fc6f5a9e9d5487b8bf7c17d9d187f8f);
+
+            
+        
+    
+            var circle_marker_0dbe012fc7f549f0860d3717ddf4a9d3 = L.circleMarker(
+                [45.741316,4.842984],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 17.61238498977109,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_93df21c1d0814a2b93ae69df89ba3765 = L.popup({maxWidth: '300'});
+
+            
+                var html_28fc13ec54564cd7a925320d457b4e0f = $('<div id="html_28fc13ec54564cd7a925320d457b4e0f" style="width: 100.0%; height: 100.0%;">LYON ARTS DANCE CENTER, 22, passage Faugier</div>')[0];
+                popup_93df21c1d0814a2b93ae69df89ba3765.setContent(html_28fc13ec54564cd7a925320d457b4e0f);
+            
+
+            circle_marker_0dbe012fc7f549f0860d3717ddf4a9d3.bindPopup(popup_93df21c1d0814a2b93ae69df89ba3765);
+
+            
+        
+    
+            var circle_marker_eb7d4921a222449abdc457a788754433 = L.circleMarker(
+                [45.77397,4.808084],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 16.707024460455195,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_2f5ba98022cf49a099a08b3b9faf9f3d = L.popup({maxWidth: '300'});
+
+            
+                var html_06c8810fb30b4da5a3caef3727667b10 = $('<div id="html_06c8810fb30b4da5a3caef3727667b10" style="width: 100.0%; height: 100.0%;">Big Ben Art Show, 38 Grande Rue De Vaise</div>')[0];
+                popup_2f5ba98022cf49a099a08b3b9faf9f3d.setContent(html_06c8810fb30b4da5a3caef3727667b10);
+            
+
+            circle_marker_eb7d4921a222449abdc457a788754433.bindPopup(popup_2f5ba98022cf49a099a08b3b9faf9f3d);
+
+            
+        
+    
+            var circle_marker_74fb2a1e23094b44a3acb9e25b293fdc = L.circleMarker(
+                [45.776399,4.859513],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 15.609839915639789,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_51f0bc838cd6404581f5d0ccdc5f3d7e = L.popup({maxWidth: '300'});
+
+            
+                var html_e9371f74888b4bcc81683c6839e28dc7 = $('<div id="html_e9371f74888b4bcc81683c6839e28dc7" style="width: 100.0%; height: 100.0%;">The Adecco Group It Projects Center</div>')[0];
+                popup_51f0bc838cd6404581f5d0ccdc5f3d7e.setContent(html_e9371f74888b4bcc81683c6839e28dc7);
+            
+
+            circle_marker_74fb2a1e23094b44a3acb9e25b293fdc.bindPopup(popup_51f0bc838cd6404581f5d0ccdc5f3d7e);
+
+            
+        
+    
+            var circle_marker_eb1e3d4201824d2eafb29986d8aaf04f = L.circleMarker(
+                [45.77754669999999,4.829989599999976],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.97926621218367,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_9dd61ded40b14402aeb9eaf0b732bd6a = L.popup({maxWidth: '300'});
+
+            
+                var html_60798b2190df439bb5e5541edd8b7406 = $('<div id="html_60798b2190df439bb5e5541edd8b7406" style="width: 100.0%; height: 100.0%;">PELLETIER ArtShop, Rue des artistes</div>')[0];
+                popup_9dd61ded40b14402aeb9eaf0b732bd6a.setContent(html_60798b2190df439bb5e5541edd8b7406);
+            
+
+            circle_marker_eb1e3d4201824d2eafb29986d8aaf04f.bindPopup(popup_9dd61ded40b14402aeb9eaf0b732bd6a);
+
+            
+        
+    
+            var circle_marker_a3b190317dfa49818aa6125a5e5910c3 = L.circleMarker(
+                [45.77614082465964,4.8349375434420905],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.730364716515142,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_0aa2d69288364978a66b7ac2eb5bcc5d = L.popup({maxWidth: '300'});
+
+            
+                var html_f0cdb165cbc340a59ab7d532f1c2907b = $('<div id="html_f0cdb165cbc340a59ab7d532f1c2907b" style="width: 100.0%; height: 100.0%;">Agend Arts</div>')[0];
+                popup_0aa2d69288364978a66b7ac2eb5bcc5d.setContent(html_f0cdb165cbc340a59ab7d532f1c2907b);
+            
+
+            circle_marker_a3b190317dfa49818aa6125a5e5910c3.bindPopup(popup_0aa2d69288364978a66b7ac2eb5bcc5d);
+
+            
+        
+    
+            var circle_marker_143d3ed9df05493cb42fd7c424731b29 = L.circleMarker(
+                [45.777285,4.826658],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 13.39932721241895,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_75636be7e4084a5a98ff78033e2b8349 = L.popup({maxWidth: '300'});
+
+            
+                var html_ba7533515fc74299be953e76f57abcf9 = $('<div id="html_ba7533515fc74299be953e76f57abcf9" style="width: 100.0%; height: 100.0%;">Collège St Jean Baptiste De  La Salle</div>')[0];
+                popup_75636be7e4084a5a98ff78033e2b8349.setContent(html_ba7533515fc74299be953e76f57abcf9);
+            
+
+            circle_marker_143d3ed9df05493cb42fd7c424731b29.bindPopup(popup_75636be7e4084a5a98ff78033e2b8349);
+
+            
+        
+    
+            var circle_marker_605cefd0d4904e4e808940558b1a03d1 = L.circleMarker(
+                [45.752937640169506,4.8598928289052115],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.518624291798133,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_c1f4687c14c64c20a02e7e2268f082b0 = L.popup({maxWidth: '300'});
+
+            
+                var html_014feba071ef453abe7a5c48ee42739b = $('<div id="html_014feba071ef453abe7a5c48ee42739b" style="width: 100.0%; height: 100.0%;">College G. Dru</div>')[0];
+                popup_c1f4687c14c64c20a02e7e2268f082b0.setContent(html_014feba071ef453abe7a5c48ee42739b);
+            
+
+            circle_marker_605cefd0d4904e4e808940558b1a03d1.bindPopup(popup_c1f4687c14c64c20a02e7e2268f082b0);
+
+            
+        
+    
+            var circle_marker_b95e44597ef1438e8eb54db61c1cb875 = L.circleMarker(
+                [45.77554183,4.83419725],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 12.434427775000895,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_7e503368163c43d98b235ccbea661a31 = L.popup({maxWidth: '300'});
+
+            
+                var html_63ca58c8f5c34883a6a3ce5462d6d65c = $('<div id="html_63ca58c8f5c34883a6a3ce5462d6d65c" style="width: 100.0%; height: 100.0%;">Aux Arts Martiaux Lyonnais, 18 Rue d&#39;Austerlitz</div>')[0];
+                popup_7e503368163c43d98b235ccbea661a31.setContent(html_63ca58c8f5c34883a6a3ce5462d6d65c);
+            
+
+            circle_marker_b95e44597ef1438e8eb54db61c1cb875.bindPopup(popup_7e503368163c43d98b235ccbea661a31);
+
+            
+        
+    
+            var circle_marker_d19129657743423ba3526d9a49f50832 = L.circleMarker(
+                [45.769972,4.844538],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.995242343709885,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_16bfde18a0de420b99535b9d9ccc83f3 = L.popup({maxWidth: '300'});
+
+            
+                var html_b8ab404548514691aa9d4fe0b9a7fad7 = $('<div id="html_b8ab404548514691aa9d4fe0b9a7fad7" style="width: 100.0%; height: 100.0%;">LeCollege- communication, 9, Rue Tronchet</div>')[0];
+                popup_16bfde18a0de420b99535b9d9ccc83f3.setContent(html_b8ab404548514691aa9d4fe0b9a7fad7);
+            
+
+            circle_marker_d19129657743423ba3526d9a49f50832.bindPopup(popup_16bfde18a0de420b99535b9d9ccc83f3);
+
+            
+        
+    
+            var circle_marker_5b69b780db2141aaaca00390bc520ad0 = L.circleMarker(
+                [45.78025996685028,4.805070161819458],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 11.384633864352418,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_e0c411eb95704704b9117a4f0c2baf6b = L.popup({maxWidth: '300'});
+
+            
+                var html_f7e7a9044cfa4709b2be8740a1cf486b = $('<div id="html_f7e7a9044cfa4709b2be8740a1cf486b" style="width: 100.0%; height: 100.0%;">Collège Coopératif Rhône Alpes, rue de la claire</div>')[0];
+                popup_e0c411eb95704704b9117a4f0c2baf6b.setContent(html_f7e7a9044cfa4709b2be8740a1cf486b);
+            
+
+            circle_marker_5b69b780db2141aaaca00390bc520ad0.bindPopup(popup_e0c411eb95704704b9117a4f0c2baf6b);
+
+            
+        
+    
+            var circle_marker_8189a77ea5764220a8d13da704ec9777 = L.circleMarker(
+                [45.75522179999999,4.856710900000053],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.756496416299242,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_25da532ee1dc4473bed9743cc501ed16 = L.popup({maxWidth: '300'});
+
+            
+                var html_f083e016a26f45228f8e689cfc1d85f5 = $('<div id="html_f083e016a26f45228f8e689cfc1d85f5" style="width: 100.0%; height: 100.0%;">Business Assistant Online, 26 Rue d&#39;Essling</div>')[0];
+                popup_25da532ee1dc4473bed9743cc501ed16.setContent(html_f083e016a26f45228f8e689cfc1d85f5);
+            
+
+            circle_marker_8189a77ea5764220a8d13da704ec9777.bindPopup(popup_25da532ee1dc4473bed9743cc501ed16);
+
+            
+        
+    
+            var circle_marker_3facf86860fe470198c70cf1d4594f49 = L.circleMarker(
+                [45.76087370625755,4.872424379765641],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.599215258582172,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_e45b201e4ac14a93b65b61e1d2ca255f = L.popup({maxWidth: '300'});
+
+            
+                var html_b5598184a0da44f7acdaffbb9ee228ae = $('<div id="html_b5598184a0da44f7acdaffbb9ee228ae" style="width: 100.0%; height: 100.0%;">Collège Louis Jouvet, 23 Rue Docteur Dolard</div>')[0];
+                popup_e45b201e4ac14a93b65b61e1d2ca255f.setContent(html_b5598184a0da44f7acdaffbb9ee228ae);
+            
+
+            circle_marker_3facf86860fe470198c70cf1d4594f49.bindPopup(popup_e45b201e4ac14a93b65b61e1d2ca255f);
+
+            
+        
+    
+            var circle_marker_c30782e71e984a79a8fcb6f847780857 = L.circleMarker(
+                [45.77354934221203,4.85896271141465],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.378017364448088,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_71b898606f9a45a1b15d7ef260aa1054 = L.popup({maxWidth: '300'});
+
+            
+                var html_98c4be16686844a88784db51a5921d87 = $('<div id="html_98c4be16686844a88784db51a5921d87" style="width: 100.0%; height: 100.0%;">GymCenter</div>')[0];
+                popup_71b898606f9a45a1b15d7ef260aa1054.setContent(html_98c4be16686844a88784db51a5921d87);
+            
+
+            circle_marker_c30782e71e984a79a8fcb6f847780857.bindPopup(popup_71b898606f9a45a1b15d7ef260aa1054);
+
+            
+        
+    
+            var circle_marker_97c215926c4c4833a91f45419d255f56 = L.circleMarker(
+                [45.77256983355852,4.81628285624778],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.375186439631763,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_f5dd5816f91645678979eabd126aa56d = L.popup({maxWidth: '300'});
+
+            
+                var html_38f897b93c8842c4afe69690b50997e9 = $('<div id="html_38f897b93c8842c4afe69690b50997e9" style="width: 100.0%; height: 100.0%;">College-Lycee St. Charles</div>')[0];
+                popup_f5dd5816f91645678979eabd126aa56d.setContent(html_38f897b93c8842c4afe69690b50997e9);
+            
+
+            circle_marker_97c215926c4c4833a91f45419d255f56.bindPopup(popup_f5dd5816f91645678979eabd126aa56d);
+
+            
+        
+    
+            var circle_marker_cf63af65e6ee4c9680960f8fa8153576 = L.circleMarker(
+                [45.75018408758491,4.8592660749837835],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.151508289225719,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_a3360b0dca0549be977d0f008378e062 = L.popup({maxWidth: '300'});
+
+            
+                var html_90af4570982a4087a816f306b700e231 = $('<div id="html_90af4570982a4087a816f306b700e231" style="width: 100.0%; height: 100.0%;">Orange Business Services, 141 Cours Gambetta</div>')[0];
+                popup_a3360b0dca0549be977d0f008378e062.setContent(html_90af4570982a4087a816f306b700e231);
+            
+
+            circle_marker_cf63af65e6ee4c9680960f8fa8153576.bindPopup(popup_a3360b0dca0549be977d0f008378e062);
+
+            
+        
+    
+            var circle_marker_d15d37aaeb2b42d593f976f260009306 = L.circleMarker(
+                [45.77139128,4.86901286],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.101794682013768,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_96368de7192e410cbfeb10fbaf63b76f = L.popup({maxWidth: '300'});
+
+            
+                var html_8d336f1786e546b892be664a926a5fcc = $('<div id="html_8d336f1786e546b892be664a926a5fcc" style="width: 100.0%; height: 100.0%;">Audioprothésiste  VILLEURBANNE Optical Center, 67 Cours Emile Zola</div>')[0];
+                popup_96368de7192e410cbfeb10fbaf63b76f.setContent(html_8d336f1786e546b892be664a926a5fcc);
+            
+
+            circle_marker_d15d37aaeb2b42d593f976f260009306.bindPopup(popup_96368de7192e410cbfeb10fbaf63b76f);
+
+            
+        
+    
+            var circle_marker_5af5446186894cc89edaa87a2e01547a = L.circleMarker(
+                [45.77132612,4.86898783],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 10.015263401171014,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_1b9309f1202844f18b58497a5ca23e49 = L.popup({maxWidth: '300'});
+
+            
+                var html_7eb29663b29a442ea29769fb2de2c725 = $('<div id="html_7eb29663b29a442ea29769fb2de2c725" style="width: 100.0%; height: 100.0%;">Optical Center Villeurbanne, 67 Cours Emile Zola</div>')[0];
+                popup_1b9309f1202844f18b58497a5ca23e49.setContent(html_7eb29663b29a442ea29769fb2de2c725);
+            
+
+            circle_marker_5af5446186894cc89edaa87a2e01547a.bindPopup(popup_1b9309f1202844f18b58497a5ca23e49);
+
+            
+        
+    
+            var circle_marker_501a66c143b443cb838d63d1d0b4c509 = L.circleMarker(
+                [45.74856992935639,4.858971834182739],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.914251939686066,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_ffb98095219749ab888df321f43ec92d = L.popup({maxWidth: '300'});
+
+            
+                var html_12448aa772c34eac9c26b14c31da153b = $('<div id="html_12448aa772c34eac9c26b14c31da153b" style="width: 100.0%; height: 100.0%;">Résidence étudiante Les Arts Manufacture, 39 rue jules brunard</div>')[0];
+                popup_ffb98095219749ab888df321f43ec92d.setContent(html_12448aa772c34eac9c26b14c31da153b);
+            
+
+            circle_marker_501a66c143b443cb838d63d1d0b4c509.bindPopup(popup_ffb98095219749ab888df321f43ec92d);
+
+            
+        
+    
+            var circle_marker_63b4dd732b9c4d1486682b7ae4f4e9aa = L.circleMarker(
+                [45.75491188754776,4.859131369675215],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.824189878809188,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_8a4fb5ebd62343d59605944d61e50bd2 = L.popup({maxWidth: '300'});
+
+            
+                var html_2cedbaac829f4bec8ca921e043f00743 = $('<div id="html_2cedbaac829f4bec8ca921e043f00743" style="width: 100.0%; height: 100.0%;">E-artsup, 86 boulevard vivier merle</div>')[0];
+                popup_8a4fb5ebd62343d59605944d61e50bd2.setContent(html_2cedbaac829f4bec8ca921e043f00743);
+            
+
+            circle_marker_63b4dd732b9c4d1486682b7ae4f4e9aa.bindPopup(popup_8a4fb5ebd62343d59605944d61e50bd2);
+
+            
+        
+    
+            var circle_marker_f0f578157c054e71a6e66d1dd39f5310 = L.circleMarker(
+                [45.739926,4.858591],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.742409333832727,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_779dfc31bde8453eb909643eb2cffa0d = L.popup({maxWidth: '300'});
+
+            
+                var html_049a47a8f1144915be409ac335b79416 = $('<div id="html_049a47a8f1144915be409ac335b79416" style="width: 100.0%; height: 100.0%;">Esthetic Center, Avenue Berthelot</div>')[0];
+                popup_779dfc31bde8453eb909643eb2cffa0d.setContent(html_049a47a8f1144915be409ac335b79416);
+            
+
+            circle_marker_f0f578157c054e71a6e66d1dd39f5310.bindPopup(popup_779dfc31bde8453eb909643eb2cffa0d);
+
+            
+        
+    
+            var circle_marker_2d60bfd495a74f3694a9252938e64fc7 = L.circleMarker(
+                [45.76344779999999,4.83697600000005],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.307895057876966,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_c0786d3b0b734accbb8c211574d7e278 = L.popup({maxWidth: '300'});
+
+            
+                var html_14547810e822490f8983c5b1ef88df48 = $('<div id="html_14547810e822490f8983c5b1ef88df48" style="width: 100.0%; height: 100.0%;">English Business Week - Angelina Sinem Gunes, Place des Cordeliers</div>')[0];
+                popup_c0786d3b0b734accbb8c211574d7e278.setContent(html_14547810e822490f8983c5b1ef88df48);
+            
+
+            circle_marker_2d60bfd495a74f3694a9252938e64fc7.bindPopup(popup_c0786d3b0b734accbb8c211574d7e278);
+
+            
+        
+    
+            var circle_marker_ad4b046bdc834820b875240fdeb61c74 = L.circleMarker(
+                [45.75121151204082,4.842394478352647],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.11878878052103,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_37becc02e4cf4d6ab0c0bfeab7523e75 = L.popup({maxWidth: '300'});
+
+            
+                var html_33c9b17f838649c2a59766f66db02fda = $('<div id="html_33c9b17f838649c2a59766f66db02fda" style="width: 100.0%; height: 100.0%;">Collège Supérieur</div>')[0];
+                popup_37becc02e4cf4d6ab0c0bfeab7523e75.setContent(html_33c9b17f838649c2a59766f66db02fda);
+            
+
+            circle_marker_ad4b046bdc834820b875240fdeb61c74.bindPopup(popup_37becc02e4cf4d6ab0c0bfeab7523e75);
+
+            
+        
+    
+            var circle_marker_0dcb299ccc9e476a8235630a51dba723 = L.circleMarker(
+                [45.762790910189096,4.837751931389267],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 9.089187467658942,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_f201aeaa785145a6b22a3b5d109a14b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_ea0591006e254ffcabf7629ec8fcedef = $('<div id="html_ea0591006e254ffcabf7629ec8fcedef" style="width: 100.0%; height: 100.0%;">Arts Hotel</div>')[0];
+                popup_f201aeaa785145a6b22a3b5d109a14b7.setContent(html_ea0591006e254ffcabf7629ec8fcedef);
+            
+
+            circle_marker_0dcb299ccc9e476a8235630a51dba723.bindPopup(popup_f201aeaa785145a6b22a3b5d109a14b7);
+
+            
+        
+    
+            var circle_marker_7ce1dad60d6e450dbe535d60a1862ad5 = L.circleMarker(
+                [45.759948509667325,4.852180480957031],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.802341007184767,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_3168036bb4ff42a9aa18882b1de55332 = L.popup({maxWidth: '300'});
+
+            
+                var html_1de97e690d7845bb890803368d33c32f = $('<div id="html_1de97e690d7845bb890803368d33c32f" style="width: 100.0%; height: 100.0%;">Optical Center, ZAE du Champ le Roi</div>')[0];
+                popup_3168036bb4ff42a9aa18882b1de55332.setContent(html_1de97e690d7845bb890803368d33c32f);
+            
+
+            circle_marker_7ce1dad60d6e450dbe535d60a1862ad5.bindPopup(popup_3168036bb4ff42a9aa18882b1de55332);
+
+            
+        
+    
+            var circle_marker_842b437335f14caaa44e62710d7cea35 = L.circleMarker(
+                [45.76057725829968,4.851751327514648],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.800595162355739,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_b3686477b7d24677b64901af7eb5436f = L.popup({maxWidth: '300'});
+
+            
+                var html_9cc1be0022ac4f09b48961adf3b21360 = $('<div id="html_9cc1be0022ac4f09b48961adf3b21360" style="width: 100.0%; height: 100.0%;">Optical Center, Les Closets - 794 route de Domfront</div>')[0];
+                popup_b3686477b7d24677b64901af7eb5436f.setContent(html_9cc1be0022ac4f09b48961adf3b21360);
+            
+
+            circle_marker_842b437335f14caaa44e62710d7cea35.bindPopup(popup_b3686477b7d24677b64901af7eb5436f);
+
+            
+        
+    
+            var circle_marker_c46f8646780345afa9b0582deb53ebd4 = L.circleMarker(
+                [45.74558141935457,4.847478547587518],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.328706233566153,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_4ccc53e26fff45e5a4387e97ac793c79 = L.popup({maxWidth: '300'});
+
+            
+                var html_09929a7796664d3eaa60c81f102e468a = $('<div id="html_09929a7796664d3eaa60c81f102e468a" style="width: 100.0%; height: 100.0%;">Conde Art School</div>')[0];
+                popup_4ccc53e26fff45e5a4387e97ac793c79.setContent(html_09929a7796664d3eaa60c81f102e468a);
+            
+
+            circle_marker_c46f8646780345afa9b0582deb53ebd4.bindPopup(popup_4ccc53e26fff45e5a4387e97ac793c79);
+
+            
+        
+    
+            var circle_marker_f70c5e6a64be4e74b659485d04f7af94 = L.circleMarker(
+                [45.75315780183943,4.854460596865698],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.232928560619115,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_84b33cb19f154211b8c1ddbd1e498323 = L.popup({maxWidth: '300'});
+
+            
+                var html_4ec43ffb54594a01976a757a8527a3a7 = $('<div id="html_4ec43ffb54594a01976a757a8527a3a7" style="width: 100.0%; height: 100.0%;">Powerplate Center, Avenue Félix Faure</div>')[0];
+                popup_84b33cb19f154211b8c1ddbd1e498323.setContent(html_4ec43ffb54594a01976a757a8527a3a7);
+            
+
+            circle_marker_f70c5e6a64be4e74b659485d04f7af94.bindPopup(popup_84b33cb19f154211b8c1ddbd1e498323);
+
+            
+        
+    
+            var circle_marker_ee1adf4032ca47648a5e41f18f2f85c1 = L.circleMarker(
+                [45.77385117840352,4.824526176569185],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 8.066806550112029,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_6a39c006ffaa41e494d9db63d0f07273 = L.popup({maxWidth: '300'});
+
+            
+                var html_a1d3af453648414c9e4e9218c3f42284 = $('<div id="html_a1d3af453648414c9e4e9218c3f42284" style="width: 100.0%; height: 100.0%;">College De La Tourette, Blvd De La Croix Rousse</div>')[0];
+                popup_6a39c006ffaa41e494d9db63d0f07273.setContent(html_a1d3af453648414c9e4e9218c3f42284);
+            
+
+            circle_marker_ee1adf4032ca47648a5e41f18f2f85c1.bindPopup(popup_6a39c006ffaa41e494d9db63d0f07273);
+
+            
+        
+    
+            var circle_marker_5b842e99bfb946d79369a018c7e9b3ee = L.circleMarker(
+                [45.75121758,4.82940492],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.949846910138808,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_c79606058fae467c8a293929feefa382 = L.popup({maxWidth: '300'});
+
+            
+                var html_8c825d66c5cf4299b909a513e353d12f = $('<div id="html_8c825d66c5cf4299b909a513e353d12f" style="width: 100.0%; height: 100.0%;">Optical Center LYON - PERRACHE, 8 Place Carnot</div>')[0];
+                popup_c79606058fae467c8a293929feefa382.setContent(html_8c825d66c5cf4299b909a513e353d12f);
+            
+
+            circle_marker_5b842e99bfb946d79369a018c7e9b3ee.bindPopup(popup_c79606058fae467c8a293929feefa382);
+
+            
+        
+    
+            var circle_marker_5a10842bb75041fea1f23ab5f6f470f0 = L.circleMarker(
+                [45.78874436596676,4.813961767278767],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.879555140936328,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_6abcc56c2b24461294ba9bcda20a7c54 = L.popup({maxWidth: '300'});
+
+            
+                var html_9e9a40003c7e42f08ddf20de54ecd5ee = $('<div id="html_9e9a40003c7e42f08ddf20de54ecd5ee" style="width: 100.0%; height: 100.0%;">Electronic Arts, Rue Joannes Carret</div>')[0];
+                popup_6abcc56c2b24461294ba9bcda20a7c54.setContent(html_9e9a40003c7e42f08ddf20de54ecd5ee);
+            
+
+            circle_marker_5a10842bb75041fea1f23ab5f6f470f0.bindPopup(popup_6abcc56c2b24461294ba9bcda20a7c54);
+
+            
+        
+    
+            var circle_marker_34548c861fec4236afc68af480d645c5 = L.circleMarker(
+                [45.772639,4.860043],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.753070417008998,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_b2479227f45145e8be233e8b745234bd = L.popup({maxWidth: '300'});
+
+            
+                var html_69b2bf736f87437d8d9de4da7763e9b4 = $('<div id="html_69b2bf736f87437d8d9de4da7763e9b4" style="width: 100.0%; height: 100.0%;">NPA CENTER, 6 cours André Philip</div>')[0];
+                popup_b2479227f45145e8be233e8b745234bd.setContent(html_69b2bf736f87437d8d9de4da7763e9b4);
+            
+
+            circle_marker_34548c861fec4236afc68af480d645c5.bindPopup(popup_b2479227f45145e8be233e8b745234bd);
+
+            
+        
+    
+            var circle_marker_1c8b6db2e6304948a366c4d98c1f96a3 = L.circleMarker(
+                [45.76015,4.84527],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.741043883244849,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_c952ad60e5644e3eae5281453189e2e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_b3223b1b96e5493d90df542d5d7e2cfb = $('<div id="html_b3223b1b96e5493d90df542d5d7e2cfb" style="width: 100.0%; height: 100.0%;">Liogier Arts Graphiques, 41 rue Serviant</div>')[0];
+                popup_c952ad60e5644e3eae5281453189e2e4.setContent(html_b3223b1b96e5493d90df542d5d7e2cfb);
+            
+
+            circle_marker_1c8b6db2e6304948a366c4d98c1f96a3.bindPopup(popup_c952ad60e5644e3eae5281453189e2e4);
+
+            
+        
+    
+            var circle_marker_0c526c5cd58541c28840e2277302e695 = L.circleMarker(
+                [45.76537508468289,4.850759893759939],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.704655278905624,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_5ac9f98e804e4aec92c8392d78c05093 = L.popup({maxWidth: '300'});
+
+            
+                var html_ac760e18e6fb4f149b56ec1a92a6b96a = $('<div id="html_ac760e18e6fb4f149b56ec1a92a6b96a" style="width: 100.0%; height: 100.0%;">Esthetic Center, 132 Cours Lafayette</div>')[0];
+                popup_5ac9f98e804e4aec92c8392d78c05093.setContent(html_ac760e18e6fb4f149b56ec1a92a6b96a);
+            
+
+            circle_marker_0c526c5cd58541c28840e2277302e695.bindPopup(popup_5ac9f98e804e4aec92c8392d78c05093);
+
+            
+        
+    
+            var circle_marker_83f0d6afaeb04b9589368387c680e5be = L.circleMarker(
+                [45.763149,4.822202],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.5056368033912815,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_708da7a75cdc4655ac8af2fa661fd7ef = L.popup({maxWidth: '300'});
+
+            
+                var html_97432a26fcb54f8d9abf1bbdac929998 = $('<div id="html_97432a26fcb54f8d9abf1bbdac929998" style="width: 100.0%; height: 100.0%;">École Catholique des Arts des Métiers</div>')[0];
+                popup_708da7a75cdc4655ac8af2fa661fd7ef.setContent(html_97432a26fcb54f8d9abf1bbdac929998);
+            
+
+            circle_marker_83f0d6afaeb04b9589368387c680e5be.bindPopup(popup_708da7a75cdc4655ac8af2fa661fd7ef);
+
+            
+        
+    
+            var circle_marker_46a379b6a85f4cb2b16399f9a1dbf397 = L.circleMarker(
+                [45.75923931842664,4.79119145566668],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.464763270492066,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_f00d10fb51e740358f6132970c232c1d = L.popup({maxWidth: '300'});
+
+            
+                var html_7f90755707f84b13916fcdc7a52cdff0 = $('<div id="html_7f90755707f84b13916fcdc7a52cdff0" style="width: 100.0%; height: 100.0%;">Collège des Minimes</div>')[0];
+                popup_f00d10fb51e740358f6132970c232c1d.setContent(html_7f90755707f84b13916fcdc7a52cdff0);
+            
+
+            circle_marker_46a379b6a85f4cb2b16399f9a1dbf397.bindPopup(popup_f00d10fb51e740358f6132970c232c1d);
+
+            
+        
+    
+            var circle_marker_d452689115cb46c180d36086b1edcb83 = L.circleMarker(
+                [45.74821831402587,4.827949164749228],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.406426847314846,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_4fa6b1d5521447f1bc7bc892bf494d86 = L.popup({maxWidth: '300'});
+
+            
+                var html_e6631e5726274e4aa4d77cb7c7f599e7 = $('<div id="html_e6631e5726274e4aa4d77cb7c7f599e7" style="width: 100.0%; height: 100.0%;">Hôtel Ibis Lyon Centre Perrache, 28 Cours de Verdun Perrache</div>')[0];
+                popup_4fa6b1d5521447f1bc7bc892bf494d86.setContent(html_e6631e5726274e4aa4d77cb7c7f599e7);
+            
+
+            circle_marker_d452689115cb46c180d36086b1edcb83.bindPopup(popup_4fa6b1d5521447f1bc7bc892bf494d86);
+
+            
+        
+    
+            var circle_marker_b7a3097fe08b409a945218bd6f8f560e = L.circleMarker(
+                [45.762329,4.836785],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.280182306105986,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_0163170d50b24ae18fb8c31bc50c5123 = L.popup({maxWidth: '300'});
+
+            
+                var html_00fd76debba645538068cfc4a4545a62 = $('<div id="html_00fd76debba645538068cfc4a4545a62" style="width: 100.0%; height: 100.0%;">Suite arts hotel Lyon</div>')[0];
+                popup_0163170d50b24ae18fb8c31bc50c5123.setContent(html_00fd76debba645538068cfc4a4545a62);
+            
+
+            circle_marker_b7a3097fe08b409a945218bd6f8f560e.bindPopup(popup_0163170d50b24ae18fb8c31bc50c5123);
+
+            
+        
+    
+            var circle_marker_c478ab11a1bf4d2e844083cd1f24ca34 = L.circleMarker(
+                [45.74685,4.842069],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 7.180095618079123,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_4af710695f634b70814bf3bde1000955 = L.popup({maxWidth: '300'});
+
+            
+                var html_175466c73ff34258b7beb913fc1ead5d = $('<div id="html_175466c73ff34258b7beb913fc1ead5d" style="width: 100.0%; height: 100.0%;">Groupe Pierre &amp; Vacances Center Parcs, 21 Rue Renan</div>')[0];
+                popup_4af710695f634b70814bf3bde1000955.setContent(html_175466c73ff34258b7beb913fc1ead5d);
+            
+
+            circle_marker_c478ab11a1bf4d2e844083cd1f24ca34.bindPopup(popup_4af710695f634b70814bf3bde1000955);
+
+            
+        
+    
+            var circle_marker_7a75b0f350bb4139bc88f0c4eb5f6d72 = L.circleMarker(
+                [45.768531499887025,4.805779246773912],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.911346033128203,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_6ad8b696b1fb4dc4bddc1a62de766dc8 = L.popup({maxWidth: '300'});
+
+            
+                var html_f6500af223724cdb8980dd7e9555f9e2 = $('<div id="html_f6500af223724cdb8980dd7e9555f9e2" style="width: 100.0%; height: 100.0%;">CEFAM Business School, 47 rue Sergent Michel Berthet</div>')[0];
+                popup_6ad8b696b1fb4dc4bddc1a62de766dc8.setContent(html_f6500af223724cdb8980dd7e9555f9e2);
+            
+
+            circle_marker_7a75b0f350bb4139bc88f0c4eb5f6d72.bindPopup(popup_6ad8b696b1fb4dc4bddc1a62de766dc8);
+
+            
+        
+    
+            var circle_marker_3a3c2d6d452d46b2b3fc663fc814596f = L.circleMarker(
+                [45.78349398,4.80829523],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.746299722616844,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_ea6e8556efd84e0b91f5bd8d2f587d63 = L.popup({maxWidth: '300'});
+
+            
+                var html_dce6a0d2ea7b4176a50112b12ab1360f = $('<div id="html_dce6a0d2ea7b4176a50112b12ab1360f" style="width: 100.0%; height: 100.0%;">Optical Center LYON - VAISE, 64 Rue de St Cyr</div>')[0];
+                popup_ea6e8556efd84e0b91f5bd8d2f587d63.setContent(html_dce6a0d2ea7b4176a50112b12ab1360f);
+            
+
+            circle_marker_3a3c2d6d452d46b2b3fc663fc814596f.bindPopup(popup_ea6e8556efd84e0b91f5bd8d2f587d63);
+
+            
+        
+    
+            var circle_marker_9c7686d1a389457f95fea268a59f30d2 = L.circleMarker(
+                [45.76598181460622,4.8291036490495065],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.719938805838679,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_04cab71cd0104729922859ef3aad15e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_15e97121932d4499a832ffa1dd46dfed = $('<div id="html_15e97121932d4499a832ffa1dd46dfed" style="width: 100.0%; height: 100.0%;">Marché Des Arts</div>')[0];
+                popup_04cab71cd0104729922859ef3aad15e4.setContent(html_15e97121932d4499a832ffa1dd46dfed);
+            
+
+            circle_marker_9c7686d1a389457f95fea268a59f30d2.bindPopup(popup_04cab71cd0104729922859ef3aad15e4);
+
+            
+        
+    
+            var circle_marker_63ba5e4b982a42019a922bf25eaabc32 = L.circleMarker(
+                [45.767365851680815,4.821504753533222],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.633087495654677,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_b97a804325ec4768865485d1d1a3df23 = L.popup({maxWidth: '300'});
+
+            
+                var html_4538fecf29e7456eb0172e1e409ebd59 = $('<div id="html_4538fecf29e7456eb0172e1e409ebd59" style="width: 100.0%; height: 100.0%;">College Zimmerman</div>')[0];
+                popup_b97a804325ec4768865485d1d1a3df23.setContent(html_4538fecf29e7456eb0172e1e409ebd59);
+            
+
+            circle_marker_63ba5e4b982a42019a922bf25eaabc32.bindPopup(popup_b97a804325ec4768865485d1d1a3df23);
+
+            
+        
+    
+            var circle_marker_aedffb1e569a44f0a6ce31bcfb3fe425 = L.circleMarker(
+                [45.75337616536609,4.863703250885009],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.611336186292188,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_e6ad11a5fb944034a169b71da4b58168 = L.popup({maxWidth: '300'});
+
+            
+                var html_c86b31fd4b51434da22462e1e9b4a25a = $('<div id="html_c86b31fd4b51434da22462e1e9b4a25a" style="width: 100.0%; height: 100.0%;">college gilbert dru, 42 rue jeanne hachette</div>')[0];
+                popup_e6ad11a5fb944034a169b71da4b58168.setContent(html_c86b31fd4b51434da22462e1e9b4a25a);
+            
+
+            circle_marker_aedffb1e569a44f0a6ce31bcfb3fe425.bindPopup(popup_e6ad11a5fb944034a169b71da4b58168);
+
+            
+        
+    
+            var circle_marker_2c14429a1c894c0f8425c1d36244d500 = L.circleMarker(
+                [45.76662252249463,4.861875872751973],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.59035480652755,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_a40b8f79e3914d3697138b274227e4b6 = L.popup({maxWidth: '300'});
+
+            
+                var html_a295aa2206fb4bb4920bf802306150f3 = $('<div id="html_a295aa2206fb4bb4920bf802306150f3" style="width: 100.0%; height: 100.0%;">Station Collège Bellecombe [T1,T4], 165 Avenue Thiers</div>')[0];
+                popup_a40b8f79e3914d3697138b274227e4b6.setContent(html_a295aa2206fb4bb4920bf802306150f3);
+            
+
+            circle_marker_2c14429a1c894c0f8425c1d36244d500.bindPopup(popup_a40b8f79e3914d3697138b274227e4b6);
+
+            
+        
+    
+            var circle_marker_577197b58f924b48b93d1aa1177d0c18 = L.circleMarker(
+                [45.766149,4.829138],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.536677691440428,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_5613cb500bad4fc0b4b10daa2d6b87cf = L.popup({maxWidth: '300'});
+
+            
+                var html_908318db98bf4b75ad83d7ad11239f9a = $('<div id="html_908318db98bf4b75ad83d7ad11239f9a" style="width: 100.0%; height: 100.0%;">fitness center villa florentine</div>')[0];
+                popup_5613cb500bad4fc0b4b10daa2d6b87cf.setContent(html_908318db98bf4b75ad83d7ad11239f9a);
+            
+
+            circle_marker_577197b58f924b48b93d1aa1177d0c18.bindPopup(popup_5613cb500bad4fc0b4b10daa2d6b87cf);
+
+            
+        
+    
+            var circle_marker_38262ffee6cb40ebb7d97cb33c4b98b1 = L.circleMarker(
+                [45.765606680580305,4.8403295995851],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.419202447291919,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_cca0bc82d918455f874db140c72f36f4 = L.popup({maxWidth: '300'});
+
+            
+                var html_1eb101bdd662456db5dec5102c04e35c = $('<div id="html_1eb101bdd662456db5dec5102c04e35c" style="width: 100.0%; height: 100.0%;">Passerelle du Collège, Passerelle du Collège</div>')[0];
+                popup_cca0bc82d918455f874db140c72f36f4.setContent(html_1eb101bdd662456db5dec5102c04e35c);
+            
+
+            circle_marker_38262ffee6cb40ebb7d97cb33c4b98b1.bindPopup(popup_cca0bc82d918455f874db140c72f36f4);
+
+            
+        
+    
+            var circle_marker_da8a7aa8bb7b4d008b9e5f3c85cb4199 = L.circleMarker(
+                [45.757605,4.835247],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.411815274196961,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_10becc8374ca439cbfa5151e69bebdba = L.popup({maxWidth: '300'});
+
+            
+                var html_725572ada4394822b1c718ee79b27524 = $('<div id="html_725572ada4394822b1c718ee79b27524" style="width: 100.0%; height: 100.0%;">Free Center Lyon, 10, rue de la Barre</div>')[0];
+                popup_10becc8374ca439cbfa5151e69bebdba.setContent(html_725572ada4394822b1c718ee79b27524);
+            
+
+            circle_marker_da8a7aa8bb7b4d008b9e5f3c85cb4199.bindPopup(popup_10becc8374ca439cbfa5151e69bebdba);
+
+            
+        
+    
+            var circle_marker_50a0864857764f0db41a72bc48d7e91e = L.circleMarker(
+                [45.761926,4.866706],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.328919275847362,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_bbfae8e4cad3413eb3685f86abf39c3c = L.popup({maxWidth: '300'});
+
+            
+                var html_d4317625c97040cd9dc16da0880e4b80 = $('<div id="html_d4317625c97040cd9dc16da0880e4b80" style="width: 100.0%; height: 100.0%;">Prestige Center, 23 Rue Etienne Richerand</div>')[0];
+                popup_bbfae8e4cad3413eb3685f86abf39c3c.setContent(html_d4317625c97040cd9dc16da0880e4b80);
+            
+
+            circle_marker_50a0864857764f0db41a72bc48d7e91e.bindPopup(popup_bbfae8e4cad3413eb3685f86abf39c3c);
+
+            
+        
+    
+            var circle_marker_b3494f90bad34d2aac1abed604701ba2 = L.circleMarker(
+                [45.751821291969506,4.830256713989292],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.108273162510684,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_221573f9fef647a4b8e9a384dad35f40 = L.popup({maxWidth: '300'});
+
+            
+                var html_88dea9f2532f4a46b395395a9ddb7493 = $('<div id="html_88dea9f2532f4a46b395395a9ddb7493" style="width: 100.0%; height: 100.0%;">Vatel International Business School Hotel &amp; Tourism Management - Master, 38</div>')[0];
+                popup_221573f9fef647a4b8e9a384dad35f40.setContent(html_88dea9f2532f4a46b395395a9ddb7493);
+            
+
+            circle_marker_b3494f90bad34d2aac1abed604701ba2.bindPopup(popup_221573f9fef647a4b8e9a384dad35f40);
+
+            
+        
+    
+            var circle_marker_da483d368a5c4a478b7c1340539dbaf2 = L.circleMarker(
+                [45.765633277801975,4.8278918315279435],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 6.082706568139904,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_709c4161b4084b838613a84ad7dcffd9 = L.popup({maxWidth: '300'});
+
+            
+                var html_f483fca8859449898fc3ed0ebc11b690 = $('<div id="html_f483fca8859449898fc3ed0ebc11b690" style="width: 100.0%; height: 100.0%;">College Hotel Lyon, 5 place St-Paul</div>')[0];
+                popup_709c4161b4084b838613a84ad7dcffd9.setContent(html_f483fca8859449898fc3ed0ebc11b690);
+            
+
+            circle_marker_da483d368a5c4a478b7c1340539dbaf2.bindPopup(popup_709c4161b4084b838613a84ad7dcffd9);
+
+            
+        
+    
+            var circle_marker_310869cfbb604084ac63cf95c74ddf88 = L.circleMarker(
+                [45.748940952770845,4.856264971007215],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.631093255026756,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_d0447d63c2094aed8a54159295491410 = L.popup({maxWidth: '300'});
+
+            
+                var html_ab0664cda0f54e04bab4c16dcec40a12 = $('<div id="html_ab0664cda0f54e04bab4c16dcec40a12" style="width: 100.0%; height: 100.0%;">e-artsup, 20 Rue Jules Brunard</div>')[0];
+                popup_d0447d63c2094aed8a54159295491410.setContent(html_ab0664cda0f54e04bab4c16dcec40a12);
+            
+
+            circle_marker_310869cfbb604084ac63cf95c74ddf88.bindPopup(popup_d0447d63c2094aed8a54159295491410);
+
+            
+        
+    
+            var circle_marker_5243b815763d40448028f5b628f28338 = L.circleMarker(
+                [45.751949,4.830851],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.4354616603075145,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_0a25d13f818e458691adc3656cc41059 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd532b1a16d84a058268cc875e4aeacc = $('<div id="html_dd532b1a16d84a058268cc875e4aeacc" style="width: 100.0%; height: 100.0%;">Coiffure Des Arts, 44 rue Franklin, 69002 Lyon</div>')[0];
+                popup_0a25d13f818e458691adc3656cc41059.setContent(html_dd532b1a16d84a058268cc875e4aeacc);
+            
+
+            circle_marker_5243b815763d40448028f5b628f28338.bindPopup(popup_0a25d13f818e458691adc3656cc41059);
+
+            
+        
+    
+            var circle_marker_b6b5fe85bc8640629977082e72b53a90 = L.circleMarker(
+                [45.74811829999999,4.844633400000021],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.35653850066272,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_2e0fb70ed6e54262ae79167f1371e968 = L.popup({maxWidth: '300'});
+
+            
+                var html_2f3bbfa70c894e1481615747e84b6560 = $('<div id="html_2f3bbfa70c894e1481615747e84b6560" style="width: 100.0%; height: 100.0%;">Arts Gâteaux Lyon, 28 Rue Élie Rochette</div>')[0];
+                popup_2e0fb70ed6e54262ae79167f1371e968.setContent(html_2f3bbfa70c894e1481615747e84b6560);
+            
+
+            circle_marker_b6b5fe85bc8640629977082e72b53a90.bindPopup(popup_2e0fb70ed6e54262ae79167f1371e968);
+
+            
+        
+    
+            var circle_marker_ee8982b001c147b2bd6f7e50251b8bb5 = L.circleMarker(
+                [45.766006,4.8615847],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.305113975383351,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_245bf785704e48fa9829c99cf19bf591 = L.popup({maxWidth: '300'});
+
+            
+                var html_b7ff39cc5d224288bd910a6b103c3f53 = $('<div id="html_b7ff39cc5d224288bd910a6b103c3f53" style="width: 100.0%; height: 100.0%;">Solvay Business Services (Sbs), 190 Avenue Thiers</div>')[0];
+                popup_245bf785704e48fa9829c99cf19bf591.setContent(html_b7ff39cc5d224288bd910a6b103c3f53);
+            
+
+            circle_marker_ee8982b001c147b2bd6f7e50251b8bb5.bindPopup(popup_245bf785704e48fa9829c99cf19bf591);
+
+            
+        
+    
+            var circle_marker_113b7ebc4b614d58ad2deb1c93bf3d1c = L.circleMarker(
+                [45.75873127997648,4.847794963447816],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.263555085085426,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_94226fdf92f4410494c4b5a3e8a56143 = L.popup({maxWidth: '300'});
+
+            
+                var html_5b5d8c84061a4a55b1130a46a48d6a3f = $('<div id="html_5b5d8c84061a4a55b1130a46a48d6a3f" style="width: 100.0%; height: 100.0%;">College Raoul Dufy, 74 bis Rue Mazenod</div>')[0];
+                popup_94226fdf92f4410494c4b5a3e8a56143.setContent(html_5b5d8c84061a4a55b1130a46a48d6a3f);
+            
+
+            circle_marker_113b7ebc4b614d58ad2deb1c93bf3d1c.bindPopup(popup_94226fdf92f4410494c4b5a3e8a56143);
+
+            
+        
+    
+            var circle_marker_f912f5da7d194b4691d6a93172b6047b = L.circleMarker(
+                [45.765092,4.828402],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.192744840730994,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_19fd8191750b4179bc331dbffecaff8f = L.popup({maxWidth: '300'});
+
+            
+                var html_33c92918aaef46149c1a53b51b5ca028 = $('<div id="html_33c92918aaef46149c1a53b51b5ca028" style="width: 100.0%; height: 100.0%;">Le College</div>')[0];
+                popup_19fd8191750b4179bc331dbffecaff8f.setContent(html_33c92918aaef46149c1a53b51b5ca028);
+            
+
+            circle_marker_f912f5da7d194b4691d6a93172b6047b.bindPopup(popup_19fd8191750b4179bc331dbffecaff8f);
+
+            
+        
+    
+            var circle_marker_2189209ab336426eae4a47847d95a674 = L.circleMarker(
+                [45.763736724853516,4.843379974365234],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.016571957761453,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_59fbcf7d39b54249a33a6daac8ff8771 = L.popup({maxWidth: '300'});
+
+            
+                var html_4b9d3de92e904b09be375ae258bfdcef = $('<div id="html_4b9d3de92e904b09be375ae258bfdcef" style="width: 100.0%; height: 100.0%;">Guitar Center, 21 Cours Lafayette</div>')[0];
+                popup_59fbcf7d39b54249a33a6daac8ff8771.setContent(html_4b9d3de92e904b09be375ae258bfdcef);
+            
+
+            circle_marker_2189209ab336426eae4a47847d95a674.bindPopup(popup_59fbcf7d39b54249a33a6daac8ff8771);
+
+            
+        
+    
+            var circle_marker_1c8b9feecb1646e18432464d0667da62 = L.circleMarker(
+                [45.78589164715916,4.810954468002234],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_56a18412c8444fa3a60fe4ec09b0c2b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_eb0b919e2f91422b9044d523b2cd1132 = $('<div id="html_eb0b919e2f91422b9044d523b2cd1132" style="width: 100.0%; height: 100.0%;">Coffe And Food</div>')[0];
+                popup_56a18412c8444fa3a60fe4ec09b0c2b4.setContent(html_eb0b919e2f91422b9044d523b2cd1132);
+            
+
+            circle_marker_1c8b9feecb1646e18432464d0667da62.bindPopup(popup_56a18412c8444fa3a60fe4ec09b0c2b4);
+
+            
+        
+    
+            var circle_marker_e783c80b0cfc4b62ab0916398841351b = L.circleMarker(
+                [45.76772607943078,4.837527095159721],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_a9e15787825d4cd89486de6a259bc29d = L.popup({maxWidth: '300'});
+
+            
+                var html_f04d0260780346b2bf75f577365cd185 = $('<div id="html_f04d0260780346b2bf75f577365cd185" style="width: 100.0%; height: 100.0%;">simple food, 67 Rue De Marseille</div>')[0];
+                popup_a9e15787825d4cd89486de6a259bc29d.setContent(html_f04d0260780346b2bf75f577365cd185);
+            
+
+            circle_marker_e783c80b0cfc4b62ab0916398841351b.bindPopup(popup_a9e15787825d4cd89486de6a259bc29d);
+
+            
+        
+    
+            var circle_marker_6bee166bc9634cf8a72aa5bc48fa340e = L.circleMarker(
+                [45.762966,4.827019],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_fa93148029fb42a1a53a3f9177907f6b = L.popup({maxWidth: '300'});
+
+            
+                var html_6cc7e39d9bfb41dfb1288a97b86ac58a = $('<div id="html_6cc7e39d9bfb41dfb1288a97b86ac58a" style="width: 100.0%; height: 100.0%;">Food Traboule, 22 rue du Boeuf</div>')[0];
+                popup_fa93148029fb42a1a53a3f9177907f6b.setContent(html_6cc7e39d9bfb41dfb1288a97b86ac58a);
+            
+
+            circle_marker_6bee166bc9634cf8a72aa5bc48fa340e.bindPopup(popup_fa93148029fb42a1a53a3f9177907f6b);
+
+            
+        
+    
+            var circle_marker_d3693d1ce7d24cca83c9618bf628e1ff = L.circleMarker(
+                [45.76713562011719,4.833096027374268],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_88192d2df67a4da3885bf5e937cc53b7 = L.popup({maxWidth: '300'});
+
+            
+                var html_68928e298ae34bf599ae33455ee7003d = $('<div id="html_68928e298ae34bf599ae33455ee7003d" style="width: 100.0%; height: 100.0%;">Class Food</div>')[0];
+                popup_88192d2df67a4da3885bf5e937cc53b7.setContent(html_68928e298ae34bf599ae33455ee7003d);
+            
+
+            circle_marker_d3693d1ce7d24cca83c9618bf628e1ff.bindPopup(popup_88192d2df67a4da3885bf5e937cc53b7);
+
+            
+        
+    
+            var circle_marker_100a108ec85d4cfaa579186df523969c = L.circleMarker(
+                [45.757451043126075,4.840497387312171],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_7ac4303a8cc040f391498ab7c2ad6ff7 = L.popup({maxWidth: '300'});
+
+            
+                var html_f87767a2b34247d2a8b70a8935e07885 = $('<div id="html_f87767a2b34247d2a8b70a8935e07885" style="width: 100.0%; height: 100.0%;">Peshawar Express Indian Food Truck, 28 Quai Augagneur</div>')[0];
+                popup_7ac4303a8cc040f391498ab7c2ad6ff7.setContent(html_f87767a2b34247d2a8b70a8935e07885);
+            
+
+            circle_marker_100a108ec85d4cfaa579186df523969c.bindPopup(popup_7ac4303a8cc040f391498ab7c2ad6ff7);
+
+            
+        
+    
+            var circle_marker_d533ca9bc36b49ea8d02f7823842d055 = L.circleMarker(
+                [45.760146,4.833297],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_1e7c640cf0584f36bb223a59ad246533 = L.popup({maxWidth: '300'});
+
+            
+                var html_2c1ddf8a83a2466087355669301771d8 = $('<div id="html_2c1ddf8a83a2466087355669301771d8" style="width: 100.0%; height: 100.0%;">China Fast Food, 9 rue de l&#39;Ancienne Préfecture</div>')[0];
+                popup_1e7c640cf0584f36bb223a59ad246533.setContent(html_2c1ddf8a83a2466087355669301771d8);
+            
+
+            circle_marker_d533ca9bc36b49ea8d02f7823842d055.bindPopup(popup_1e7c640cf0584f36bb223a59ad246533);
+
+            
+        
+    
+            var circle_marker_7d71cc0f12cf4881a797ed0f37f75a3c = L.circleMarker(
+                [45.761967,4.8570476],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_d771d21415af4c50a03c7c9f707727a2 = L.popup({maxWidth: '300'});
+
+            
+                var html_29f87725abaf4804a4414bbc36a477b6 = $('<div id="html_29f87725abaf4804a4414bbc36a477b6" style="width: 100.0%; height: 100.0%;">Food Market</div>')[0];
+                popup_d771d21415af4c50a03c7c9f707727a2.setContent(html_29f87725abaf4804a4414bbc36a477b6);
+            
+
+            circle_marker_7d71cc0f12cf4881a797ed0f37f75a3c.bindPopup(popup_d771d21415af4c50a03c7c9f707727a2);
+
+            
+        
+    
+            var circle_marker_d1819b32ae694ce68a4f0860cc6b6dcd = L.circleMarker(
+                [45.76996476337627,4.834813072449886],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_a4de141a274c4671bbaffc354507eeb8 = L.popup({maxWidth: '300'});
+
+            
+                var html_81032acf5fb4408ca77cc90bc568602f = $('<div id="html_81032acf5fb4408ca77cc90bc568602f" style="width: 100.0%; height: 100.0%;">Chill Art Food, 2 rue Coysevox</div>')[0];
+                popup_a4de141a274c4671bbaffc354507eeb8.setContent(html_81032acf5fb4408ca77cc90bc568602f);
+            
+
+            circle_marker_d1819b32ae694ce68a4f0860cc6b6dcd.bindPopup(popup_a4de141a274c4671bbaffc354507eeb8);
+
+            
+        
+    
+            var circle_marker_a5e11090bb704e28a194363317eb8062 = L.circleMarker(
+                [45.769313,4.831705],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_e2e7b9e809d14826b7cfe04eb2388631 = L.popup({maxWidth: '300'});
+
+            
+                var html_b6cfc7f4165048759df91deef0f4faa2 = $('<div id="html_b6cfc7f4165048759df91deef0f4faa2" style="width: 100.0%; height: 100.0%;">Street Food</div>')[0];
+                popup_e2e7b9e809d14826b7cfe04eb2388631.setContent(html_b6cfc7f4165048759df91deef0f4faa2);
+            
+
+            circle_marker_a5e11090bb704e28a194363317eb8062.bindPopup(popup_e2e7b9e809d14826b7cfe04eb2388631);
+
+            
+        
+    
+            var circle_marker_e8abb2ce9b9d4d19b7bb9ea82e854239 = L.circleMarker(
+                [45.759203493777875,4.860639106976023],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_4173558a1c1f4284ac491b0b3bbc2691 = L.popup({maxWidth: '300'});
+
+            
+                var html_de17c8710dca4039809f7100f272a66b = $('<div id="html_de17c8710dca4039809f7100f272a66b" style="width: 100.0%; height: 100.0%;">Food Way, Rue De La Vilette</div>')[0];
+                popup_4173558a1c1f4284ac491b0b3bbc2691.setContent(html_de17c8710dca4039809f7100f272a66b);
+            
+
+            circle_marker_e8abb2ce9b9d4d19b7bb9ea82e854239.bindPopup(popup_4173558a1c1f4284ac491b0b3bbc2691);
+
+            
+        
+    
+            var circle_marker_4bffae1f30b047ca9682254398e494c7 = L.circleMarker(
+                [45.76764270808123,4.832868576049805],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_a430c0cbb4e144eabe1906ac1faabad3 = L.popup({maxWidth: '300'});
+
+            
+                var html_0982d7efbbba482a81cad7f19a8a244b = $('<div id="html_0982d7efbbba482a81cad7f19a8a244b" style="width: 100.0%; height: 100.0%;">Halal Burger Chicken Class Food, 8 rue Sainte Marie des Terreaux</div>')[0];
+                popup_a430c0cbb4e144eabe1906ac1faabad3.setContent(html_0982d7efbbba482a81cad7f19a8a244b);
+            
+
+            circle_marker_4bffae1f30b047ca9682254398e494c7.bindPopup(popup_a430c0cbb4e144eabe1906ac1faabad3);
+
+            
+        
+    
+            var circle_marker_7cf2ab17099b4012b2485cf779496f7b = L.circleMarker(
+                [45.756566,4.846426],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_89fbfec25d5d40579034f9a31aca5843 = L.popup({maxWidth: '300'});
+
+            
+                var html_51efb5baac964f61b07dbda95da6e1f2 = $('<div id="html_51efb5baac964f61b07dbda95da6e1f2" style="width: 100.0%; height: 100.0%;">126 Food Avenue, 126 Avenue Saxe</div>')[0];
+                popup_89fbfec25d5d40579034f9a31aca5843.setContent(html_51efb5baac964f61b07dbda95da6e1f2);
+            
+
+            circle_marker_7cf2ab17099b4012b2485cf779496f7b.bindPopup(popup_89fbfec25d5d40579034f9a31aca5843);
+
+            
+        
+    
+            var circle_marker_6191a1ac7c314ff5b4e89f5d0e7a71ed = L.circleMarker(
+                [45.761091,4.861845],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_1e455733ffe345c48b367e693ae795d0 = L.popup({maxWidth: '300'});
+
+            
+                var html_75a96dff45c24d3880dc10f4e0d36173 = $('<div id="html_75a96dff45c24d3880dc10f4e0d36173" style="width: 100.0%; height: 100.0%;">Cherche Midi, 40-44 rue de la Villette</div>')[0];
+                popup_1e455733ffe345c48b367e693ae795d0.setContent(html_75a96dff45c24d3880dc10f4e0d36173);
+            
+
+            circle_marker_6191a1ac7c314ff5b4e89f5d0e7a71ed.bindPopup(popup_1e455733ffe345c48b367e693ae795d0);
+
+            
+        
+    
+            var circle_marker_c39fd43103fb4d188d59eb0a999e34f2 = L.circleMarker(
+                [45.76796,4.8173265],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_bccfce2d5f9248bfb79dcfabc2ea9367 = L.popup({maxWidth: '300'});
+
+            
+                var html_71a0e3e26be64e69b9f43bfccb5ecfd3 = $('<div id="html_71a0e3e26be64e69b9f43bfccb5ecfd3" style="width: 100.0%; height: 100.0%;">Lyon Street Food Festival, 8 quai Saint Vincent</div>')[0];
+                popup_bccfce2d5f9248bfb79dcfabc2ea9367.setContent(html_71a0e3e26be64e69b9f43bfccb5ecfd3);
+            
+
+            circle_marker_c39fd43103fb4d188d59eb0a999e34f2.bindPopup(popup_bccfce2d5f9248bfb79dcfabc2ea9367);
+
+            
+        
+    
+            var circle_marker_180a48c946204ac789eb6379f8de1125 = L.circleMarker(
+                [45.768962809819556,4.831795016513215],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_69e245ea1e4d4e798aa4f29204abc94d = L.popup({maxWidth: '300'});
+
+            
+                var html_64db34d69b6d4740bf25a2e152a95978 = $('<div id="html_64db34d69b6d4740bf25a2e152a95978" style="width: 100.0%; height: 100.0%;">Jetfood Tandoori, 13 Rue Terme</div>')[0];
+                popup_69e245ea1e4d4e798aa4f29204abc94d.setContent(html_64db34d69b6d4740bf25a2e152a95978);
+            
+
+            circle_marker_180a48c946204ac789eb6379f8de1125.bindPopup(popup_69e245ea1e4d4e798aa4f29204abc94d);
+
+            
+        
+    
+            var circle_marker_5deca5ea7bf745ecaf19541a8d6a578d = L.circleMarker(
+                [45.760749616337655,4.861813595494791],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_2bd0b19ad8a74427b77e6583e45623b3 = L.popup({maxWidth: '300'});
+
+            
+                var html_121b7346ded44c849fe648c43711bc5f = $('<div id="html_121b7346ded44c849fe648c43711bc5f" style="width: 100.0%; height: 100.0%;">Mezzo Di Pasta</div>')[0];
+                popup_2bd0b19ad8a74427b77e6583e45623b3.setContent(html_121b7346ded44c849fe648c43711bc5f);
+            
+
+            circle_marker_5deca5ea7bf745ecaf19541a8d6a578d.bindPopup(popup_2bd0b19ad8a74427b77e6583e45623b3);
+
+            
+        
+    
+            var circle_marker_43b902a28ffc4dea983615e596315338 = L.circleMarker(
+                [45.76087024733765,4.861864411172512],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_40fd91b6f1b7476aad438b6d5af96bde = L.popup({maxWidth: '300'});
+
+            
+                var html_0690baf03b094aa989dac8e1dc2fcc80 = $('<div id="html_0690baf03b094aa989dac8e1dc2fcc80" style="width: 100.0%; height: 100.0%;">Subway, Gare de Lyon Part-Dieu</div>')[0];
+                popup_40fd91b6f1b7476aad438b6d5af96bde.setContent(html_0690baf03b094aa989dac8e1dc2fcc80);
+            
+
+            circle_marker_43b902a28ffc4dea983615e596315338.bindPopup(popup_40fd91b6f1b7476aad438b6d5af96bde);
+
+            
+        
+    
+            var circle_marker_0da59936bfe2480fb7cff99f803185b6 = L.circleMarker(
+                [45.753527312693514,4.792484153982417],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_14244b721e3f44ddbcc2e5f352483cd7 = L.popup({maxWidth: '300'});
+
+            
+                var html_f83c576f67884132ae017597adaebae1 = $('<div id="html_f83c576f67884132ae017597adaebae1" style="width: 100.0%; height: 100.0%;">160 Food, 160 rue Commandant Charcot</div>')[0];
+                popup_14244b721e3f44ddbcc2e5f352483cd7.setContent(html_f83c576f67884132ae017597adaebae1);
+            
+
+            circle_marker_0da59936bfe2480fb7cff99f803185b6.bindPopup(popup_14244b721e3f44ddbcc2e5f352483cd7);
+
+            
+        
+    
+            var circle_marker_0f6b32dd5d0846208399da71cfa4828b = L.circleMarker(
+                [45.76242890090378,4.789690862128932],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_4391c25629a94fa288ee6bf245589c1e = L.popup({maxWidth: '300'});
+
+            
+                var html_4f2bd7bb1f1c4555ae410b49b54d5a27 = $('<div id="html_4f2bd7bb1f1c4555ae410b49b54d5a27" style="width: 100.0%; height: 100.0%;">160 food</div>')[0];
+                popup_4391c25629a94fa288ee6bf245589c1e.setContent(html_4f2bd7bb1f1c4555ae410b49b54d5a27);
+            
+
+            circle_marker_0f6b32dd5d0846208399da71cfa4828b.bindPopup(popup_4391c25629a94fa288ee6bf245589c1e);
+
+            
+        
+    
+            var circle_marker_a8a657a1e77b4cb38d38fecbd31b9aa2 = L.circleMarker(
+                [45.75610264,4.84316862],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_a46a7b45aa1844bcb85b942a5cb19799 = L.popup({maxWidth: '300'});
+
+            
+                var html_019af325017d4be7b9c16b3ae310ed29 = $('<div id="html_019af325017d4be7b9c16b3ae310ed29" style="width: 100.0%; height: 100.0%;">Foodnight, 3 Rue Pierre Simon Ballanche</div>')[0];
+                popup_a46a7b45aa1844bcb85b942a5cb19799.setContent(html_019af325017d4be7b9c16b3ae310ed29);
+            
+
+            circle_marker_a8a657a1e77b4cb38d38fecbd31b9aa2.bindPopup(popup_a46a7b45aa1844bcb85b942a5cb19799);
+
+            
+        
+    
+            var circle_marker_d7963debd53e4dc8a754f9f440b4d800 = L.circleMarker(
+                [45.757152,4.82658],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_db04f37d2ef247c88112350bc9774f89 = L.popup({maxWidth: '300'});
+
+            
+                var html_03526c342b6b460ab5f8124233617e7b = $('<div id="html_03526c342b6b460ab5f8124233617e7b" style="width: 100.0%; height: 100.0%;">FoodJob</div>')[0];
+                popup_db04f37d2ef247c88112350bc9774f89.setContent(html_03526c342b6b460ab5f8124233617e7b);
+            
+
+            circle_marker_d7963debd53e4dc8a754f9f440b4d800.bindPopup(popup_db04f37d2ef247c88112350bc9774f89);
+
+            
+        
+    
+            var circle_marker_89779921c05b413c8703a66d4b9a4bb7 = L.circleMarker(
+                [45.77768252661517,4.798745308485687],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_56ba3e9c46ba4e57a69819ad4df45702 = L.popup({maxWidth: '300'});
+
+            
+                var html_359e5976ecfb493598e509dfca7a24b4 = $('<div id="html_359e5976ecfb493598e509dfca7a24b4" style="width: 100.0%; height: 100.0%;">Culture Food</div>')[0];
+                popup_56ba3e9c46ba4e57a69819ad4df45702.setContent(html_359e5976ecfb493598e509dfca7a24b4);
+            
+
+            circle_marker_89779921c05b413c8703a66d4b9a4bb7.bindPopup(popup_56ba3e9c46ba4e57a69819ad4df45702);
+
+            
+        
+    
+            var circle_marker_09cac8d14e4c4e039a23ebe619422c3d = L.circleMarker(
+                [45.771369,4.828309],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_c25c28b175d041ec9ca9b2a90d53827b = L.popup({maxWidth: '300'});
+
+            
+                var html_6a38891ac0fb4a759f173eb74ff55210 = $('<div id="html_6a38891ac0fb4a759f173eb74ff55210" style="width: 100.0%; height: 100.0%;">Bollyfood, 2 Rue Neyret</div>')[0];
+                popup_c25c28b175d041ec9ca9b2a90d53827b.setContent(html_6a38891ac0fb4a759f173eb74ff55210);
+            
+
+            circle_marker_09cac8d14e4c4e039a23ebe619422c3d.bindPopup(popup_c25c28b175d041ec9ca9b2a90d53827b);
+
+            
+        
+    
+            var circle_marker_c85faa20a2a4462fac65633b03ae104c = L.circleMarker(
+                [45.73700179999999,4.8539289],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_669dc9b059544a4ca64fe5477ed2ec81 = L.popup({maxWidth: '300'});
+
+            
+                var html_e893c6a2fe674b3ebbb242b7be05d11c = $('<div id="html_e893c6a2fe674b3ebbb242b7be05d11c" style="width: 100.0%; height: 100.0%;">maroc&amp;food, 34 Place Jean Macé</div>')[0];
+                popup_669dc9b059544a4ca64fe5477ed2ec81.setContent(html_e893c6a2fe674b3ebbb242b7be05d11c);
+            
+
+            circle_marker_c85faa20a2a4462fac65633b03ae104c.bindPopup(popup_669dc9b059544a4ca64fe5477ed2ec81);
+
+            
+        
+    
+            var circle_marker_cb8ce3a913b940dcb90b197cadbbb8ba = L.circleMarker(
+                [45.75633195443295,4.870350407973939],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_02dbc2d783b94a789d94932c951ef597 = L.popup({maxWidth: '300'});
+
+            
+                var html_fc832fc7c0f046608c8f74d3c722e450 = $('<div id="html_fc832fc7c0f046608c8f74d3c722e450" style="width: 100.0%; height: 100.0%;">Indian food center, 280 Rue Paul Bert</div>')[0];
+                popup_02dbc2d783b94a789d94932c951ef597.setContent(html_fc832fc7c0f046608c8f74d3c722e450);
+            
+
+            circle_marker_cb8ce3a913b940dcb90b197cadbbb8ba.bindPopup(popup_02dbc2d783b94a789d94932c951ef597);
+
+            
+        
+    
+            var circle_marker_155e341b96c24d1ea4cbb2275a4fd2b1 = L.circleMarker(
+                [45.768065,4.801387],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_fd26b142abaf46b78f8920fb09558df7 = L.popup({maxWidth: '300'});
+
+            
+                var html_ce4645ce65ee419687394e9c3ba0780c = $('<div id="html_ce4645ce65ee419687394e9c3ba0780c" style="width: 100.0%; height: 100.0%;">Asia Food, 43 rue Louis Loucheur</div>')[0];
+                popup_fd26b142abaf46b78f8920fb09558df7.setContent(html_ce4645ce65ee419687394e9c3ba0780c);
+            
+
+            circle_marker_155e341b96c24d1ea4cbb2275a4fd2b1.bindPopup(popup_fd26b142abaf46b78f8920fb09558df7);
+
+            
+        
+    
+            var circle_marker_dacbe3ca8bec484bbfe74cc4b6d49dd8 = L.circleMarker(
+                [45.754582,4.867587],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_de2168c718894e24919d71efc29fa9e1 = L.popup({maxWidth: '300'});
+
+            
+                var html_59bc701044544872b6a4a7a27ad758ca = $('<div id="html_59bc701044544872b6a4a7a27ad758ca" style="width: 100.0%; height: 100.0%;">Délice Food</div>')[0];
+                popup_de2168c718894e24919d71efc29fa9e1.setContent(html_59bc701044544872b6a4a7a27ad758ca);
+            
+
+            circle_marker_dacbe3ca8bec484bbfe74cc4b6d49dd8.bindPopup(popup_de2168c718894e24919d71efc29fa9e1);
+
+            
+        
+    
+            var circle_marker_05f913e90077400882ba5ef4df71850e = L.circleMarker(
+                [45.76367284140617,4.862301842716952],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_bdd4560a0f314987ae20b2cb939228f6 = L.popup({maxWidth: '300'});
+
+            
+                var html_6dcdd7dab3da4a3b8d9cfb6e1b850b53 = $('<div id="html_6dcdd7dab3da4a3b8d9cfb6e1b850b53" style="width: 100.0%; height: 100.0%;">Daily Happy Food, 234 cours La Fayette</div>')[0];
+                popup_bdd4560a0f314987ae20b2cb939228f6.setContent(html_6dcdd7dab3da4a3b8d9cfb6e1b850b53);
+            
+
+            circle_marker_05f913e90077400882ba5ef4df71850e.bindPopup(popup_bdd4560a0f314987ae20b2cb939228f6);
+
+            
+        
+    
+            var circle_marker_19eebb765ef543be948ea0f633c4080e = L.circleMarker(
+                [45.748450142487684,4.838061332702637],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_5e669ba4ee5d47348007cdba1293631d = L.popup({maxWidth: '300'});
+
+            
+                var html_da71a12a487044ec85d90e06d928b1fe = $('<div id="html_da71a12a487044ec85d90e06d928b1fe" style="width: 100.0%; height: 100.0%;">SIMPLE FOOD, 67 rue de Marseille</div>')[0];
+                popup_5e669ba4ee5d47348007cdba1293631d.setContent(html_da71a12a487044ec85d90e06d928b1fe);
+            
+
+            circle_marker_19eebb765ef543be948ea0f633c4080e.bindPopup(popup_5e669ba4ee5d47348007cdba1293631d);
+
+            
+        
+    
+            var circle_marker_39f557a444be4b61bb654382e677c894 = L.circleMarker(
+                [45.769797,4.862932],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_9c4f4950d3f045b5abf5079349404eba = L.popup({maxWidth: '300'});
+
+            
+                var html_dd82ab216454492da78ae67f1382f5ad = $('<div id="html_dd82ab216454492da78ae67f1382f5ad" style="width: 100.0%; height: 100.0%;">So Food</div>')[0];
+                popup_9c4f4950d3f045b5abf5079349404eba.setContent(html_dd82ab216454492da78ae67f1382f5ad);
+            
+
+            circle_marker_39f557a444be4b61bb654382e677c894.bindPopup(popup_9c4f4950d3f045b5abf5079349404eba);
+
+            
+        
+    
+            var circle_marker_0faa7bdabfd74baab5df04fcac5e7c3a = L.circleMarker(
+                [45.75743019790761,4.866318450007585],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_46defdb55d2643bdb7ff7b6e41dcee2d = L.popup({maxWidth: '300'});
+
+            
+                var html_619f752f61a149e0a495720d71be1058 = $('<div id="html_619f752f61a149e0a495720d71be1058" style="width: 100.0%; height: 100.0%;">Kan Food, 249 rue Paul Bert</div>')[0];
+                popup_46defdb55d2643bdb7ff7b6e41dcee2d.setContent(html_619f752f61a149e0a495720d71be1058);
+            
+
+            circle_marker_0faa7bdabfd74baab5df04fcac5e7c3a.bindPopup(popup_46defdb55d2643bdb7ff7b6e41dcee2d);
+
+            
+        
+    
+            var circle_marker_a4651dc79c2c4bbb8a38244e6c4cf7d4 = L.circleMarker(
+                [45.75419235229492,4.832240581512451],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_47b908d1243e4a95bf2b96af496eaa08 = L.popup({maxWidth: '300'});
+
+            
+                var html_f9dc6d77fe2548aab48b46a34c3b9fe5 = $('<div id="html_f9dc6d77fe2548aab48b46a34c3b9fe5" style="width: 100.0%; height: 100.0%;">Streat Food, 22 Rue De La Charite</div>')[0];
+                popup_47b908d1243e4a95bf2b96af496eaa08.setContent(html_f9dc6d77fe2548aab48b46a34c3b9fe5);
+            
+
+            circle_marker_a4651dc79c2c4bbb8a38244e6c4cf7d4.bindPopup(popup_47b908d1243e4a95bf2b96af496eaa08);
+
+            
+        
+    
+            var circle_marker_bc24738b5dbc469c8b517dbc14dc6920 = L.circleMarker(
+                [45.76309218197619,4.862995147705078],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_e6758365a5a6489789c961d406909130 = L.popup({maxWidth: '300'});
+
+            
+                var html_05bb11d0506c483d90c0b12ec60c950e = $('<div id="html_05bb11d0506c483d90c0b12ec60c950e" style="width: 100.0%; height: 100.0%;">PREET INDIAN FOOD, 58 Cours Tolstoï</div>')[0];
+                popup_e6758365a5a6489789c961d406909130.setContent(html_05bb11d0506c483d90c0b12ec60c950e);
+            
+
+            circle_marker_bc24738b5dbc469c8b517dbc14dc6920.bindPopup(popup_e6758365a5a6489789c961d406909130);
+
+            
+        
+    
+            var circle_marker_21be424de19a4b119f12c2af363ae927 = L.circleMarker(
+                [45.74964396173587,4.852788723589596],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_65c54a4f87a94abfb7e24f0e57681dcb = L.popup({maxWidth: '300'});
+
+            
+                var html_3c9e67262b604186b345d5abce418912 = $('<div id="html_3c9e67262b604186b345d5abce418912" style="width: 100.0%; height: 100.0%;">BK Food, Rue de la Guillotière</div>')[0];
+                popup_65c54a4f87a94abfb7e24f0e57681dcb.setContent(html_3c9e67262b604186b345d5abce418912);
+            
+
+            circle_marker_21be424de19a4b119f12c2af363ae927.bindPopup(popup_65c54a4f87a94abfb7e24f0e57681dcb);
+
+            
+        
+    
+            var circle_marker_3dcf5899a69542a39c02bc8d0b1d8a88 = L.circleMarker(
+                [45.74664,4.823758],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_9b30c1c777cb478094beee2b5bf24d76 = L.popup({maxWidth: '300'});
+
+            
+                var html_35ab00dee4aa4cf989e20cfc08e42f82 = $('<div id="html_35ab00dee4aa4cf989e20cfc08e42f82" style="width: 100.0%; height: 100.0%;">South Food</div>')[0];
+                popup_9b30c1c777cb478094beee2b5bf24d76.setContent(html_35ab00dee4aa4cf989e20cfc08e42f82);
+            
+
+            circle_marker_3dcf5899a69542a39c02bc8d0b1d8a88.bindPopup(popup_9b30c1c777cb478094beee2b5bf24d76);
+
+            
+        
+    
+            var circle_marker_269816c8a09b4de49301c75175eca0bd = L.circleMarker(
+                [45.749327,4.847611],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_980120dd51b74e5490701b167586c730 = L.popup({maxWidth: '300'});
+
+            
+                var html_0a8b930f911240dfa212ca37795f189c = $('<div id="html_0a8b930f911240dfa212ca37795f189c" style="width: 100.0%; height: 100.0%;">What&#39;s That Food, 57 rue de la Thibaudière</div>')[0];
+                popup_980120dd51b74e5490701b167586c730.setContent(html_0a8b930f911240dfa212ca37795f189c);
+            
+
+            circle_marker_269816c8a09b4de49301c75175eca0bd.bindPopup(popup_980120dd51b74e5490701b167586c730);
+
+            
+        
+    
+            var circle_marker_e50ed4d05c1a4a3aa267b145ceb059ad = L.circleMarker(
+                [45.74776650447492,4.833719638478935],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_8ed128efc32a489982beadab9391d50f = L.popup({maxWidth: '300'});
+
+            
+                var html_75ffda770784420686877b22cc27d055 = $('<div id="html_75ffda770784420686877b22cc27d055" style="width: 100.0%; height: 100.0%;">Pres Food, 56 Rue De La Charités</div>')[0];
+                popup_8ed128efc32a489982beadab9391d50f.setContent(html_75ffda770784420686877b22cc27d055);
+            
+
+            circle_marker_e50ed4d05c1a4a3aa267b145ceb059ad.bindPopup(popup_8ed128efc32a489982beadab9391d50f);
+
+            
+        
+    
+            var circle_marker_af63116196794fa687b3077c65065c16 = L.circleMarker(
+                [45.763508,4.8465877],
+                {
+  "bubblingMouseEvents": true,
+  "color": "red",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "red",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 5.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_6e1e3da9832a49cbae1d20e938ed5f64 = L.popup({maxWidth: '300'});
+
+            
+                var html_6484162608774a72a3684f4c8a6766d3 = $('<div id="html_6484162608774a72a3684f4c8a6766d3" style="width: 100.0%; height: 100.0%;">Harvel&#39;s Food&amp;Coffee</div>')[0];
+                popup_6e1e3da9832a49cbae1d20e938ed5f64.setContent(html_6484162608774a72a3684f4c8a6766d3);
+            
+
+            circle_marker_af63116196794fa687b3077c65065c16.bindPopup(popup_6e1e3da9832a49cbae1d20e938ed5f64);
+
+            
+        
+    
+            var circle_marker_4f88999607f9483ba6339185e83e4edd = L.circleMarker(
+                [45.7656652,4.8366181],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.794509200716871,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_536e1a0655b64625a27a18e8e1d863b4 = L.popup({maxWidth: '300'});
+
+            
+                var html_3a69b5b7d78b4f0e8e024d492f41c7b8 = $('<div id="html_3a69b5b7d78b4f0e8e024d492f41c7b8" style="width: 100.0%; height: 100.0%;">Audioprothésiste  LYON - BOURSE Optical Center, 4 Rue de la Bourse</div>')[0];
+                popup_536e1a0655b64625a27a18e8e1d863b4.setContent(html_3a69b5b7d78b4f0e8e024d492f41c7b8);
+            
+
+            circle_marker_4f88999607f9483ba6339185e83e4edd.bindPopup(popup_536e1a0655b64625a27a18e8e1d863b4);
+
+            
+        
+    
+            var circle_marker_e57230905bf347e5be4b43200fb96235 = L.circleMarker(
+                [45.76566358,4.83664587],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.785394214712008,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_e34d56d6b3ee48b295fdf69365f3f63f = L.popup({maxWidth: '300'});
+
+            
+                var html_deb7ff2e0f844c41883ef0db0f4c7c25 = $('<div id="html_deb7ff2e0f844c41883ef0db0f4c7c25" style="width: 100.0%; height: 100.0%;">Optical Center LYON - BOURSE, 4 Rue de la Bourse</div>')[0];
+                popup_e34d56d6b3ee48b295fdf69365f3f63f.setContent(html_deb7ff2e0f844c41883ef0db0f4c7c25);
+            
+
+            circle_marker_e57230905bf347e5be4b43200fb96235.bindPopup(popup_e34d56d6b3ee48b295fdf69365f3f63f);
+
+            
+        
+    
+            var circle_marker_a80cbe129f6144eda9b4f8ecff682ce6 = L.circleMarker(
+                [45.74685922458235,4.820828134021701],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.585772489117696,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_f9611af69c7d486e8d00219433fded92 = L.popup({maxWidth: '300'});
+
+            
+                var html_a1c95e8c59a842c68b215adc8e3c605d = $('<div id="html_a1c95e8c59a842c68b215adc8e3c605d" style="width: 100.0%; height: 100.0%;">Collège Saint Marc</div>')[0];
+                popup_f9611af69c7d486e8d00219433fded92.setContent(html_a1c95e8c59a842c68b215adc8e3c605d);
+            
+
+            circle_marker_a80cbe129f6144eda9b4f8ecff682ce6.bindPopup(popup_f9611af69c7d486e8d00219433fded92);
+
+            
+        
+    
+            var circle_marker_76d4dd62aaf04d27bfca57037f1d15a5 = L.circleMarker(
+                [45.756144,4.829077],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.485248800166755,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_4333b326bcc643cdac7794e63d4b5162 = L.popup({maxWidth: '300'});
+
+            
+                var html_e60c87455a37497e9a7c7a600a1dba96 = $('<div id="html_e60c87455a37497e9a7c7a600a1dba96" style="width: 100.0%; height: 100.0%;">Collège Chevreul, 21 rue Sala</div>')[0];
+                popup_4333b326bcc643cdac7794e63d4b5162.setContent(html_e60c87455a37497e9a7c7a600a1dba96);
+            
+
+            circle_marker_76d4dd62aaf04d27bfca57037f1d15a5.bindPopup(popup_4333b326bcc643cdac7794e63d4b5162);
+
+            
+        
+    
+            var circle_marker_f2ff1f293553406c96e9bcc479451920 = L.circleMarker(
+                [45.75016949,4.84505013],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.403420533765689,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_e954573436f54a0dacdffdab552c1f3c = L.popup({maxWidth: '300'});
+
+            
+                var html_bc7cf6863ab94312a5752ad060a8fc5c = $('<div id="html_bc7cf6863ab94312a5752ad060a8fc5c" style="width: 100.0%; height: 100.0%;">Optical Center LYON - JEAN-JAURÈS, 45-47 Avenue Jean Jaurès</div>')[0];
+                popup_e954573436f54a0dacdffdab552c1f3c.setContent(html_bc7cf6863ab94312a5752ad060a8fc5c);
+            
+
+            circle_marker_f2ff1f293553406c96e9bcc479451920.bindPopup(popup_e954573436f54a0dacdffdab552c1f3c);
+
+            
+        
+    
+            var circle_marker_55fa5f262dd64c4f8a71bc0e4f8a1706 = L.circleMarker(
+                [45.74951451616357,4.840400040919083],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.341081869570649,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_271946efb6d54bd597dc607ddc1d5220 = L.popup({maxWidth: '300'});
+
+            
+                var html_b042bb3f6cda4ba5a12cb295a0f80029 = $('<div id="html_b042bb3f6cda4ba5a12cb295a0f80029" style="width: 100.0%; height: 100.0%;">Stade du Collège Georges Clemenceau, Rue Sébastien Gryphe</div>')[0];
+                popup_271946efb6d54bd597dc607ddc1d5220.setContent(html_b042bb3f6cda4ba5a12cb295a0f80029);
+            
+
+            circle_marker_55fa5f262dd64c4f8a71bc0e4f8a1706.bindPopup(popup_271946efb6d54bd597dc607ddc1d5220);
+
+            
+        
+    
+            var circle_marker_42c251434f4f413abaa284b8f6d8c41c = L.circleMarker(
+                [45.763184,4.85513568],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 4.020900376575807,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_12de84f5f83b482a99b194887303dd86 = L.popup({maxWidth: '300'});
+
+            
+                var html_c0678e25183d4af5ac72db6268e0b951 = $('<div id="html_c0678e25183d4af5ac72db6268e0b951" style="width: 100.0%; height: 100.0%;">Optical Center Lyon- PART-DIEU, 29 Boulevard Eugène Deruelle</div>')[0];
+                popup_12de84f5f83b482a99b194887303dd86.setContent(html_c0678e25183d4af5ac72db6268e0b951);
+            
+
+            circle_marker_42c251434f4f413abaa284b8f6d8c41c.bindPopup(popup_12de84f5f83b482a99b194887303dd86);
+
+            
+        
+    
+            var circle_marker_66215fbcf0a849518a88e58bdb27219c = L.circleMarker(
+                [45.7466261,4.8212597],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.888282308088664,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_9e73b12a53254f13ba702fedd8dafb4a = L.popup({maxWidth: '300'});
+
+            
+                var html_05b128a0b9654516900349d6969adc4b = $('<div id="html_05b128a0b9654516900349d6969adc4b" style="width: 100.0%; height: 100.0%;">Lipotherm Center, 37 rue Denuzière, Lyon</div>')[0];
+                popup_9e73b12a53254f13ba702fedd8dafb4a.setContent(html_05b128a0b9654516900349d6969adc4b);
+            
+
+            circle_marker_66215fbcf0a849518a88e58bdb27219c.bindPopup(popup_9e73b12a53254f13ba702fedd8dafb4a);
+
+            
+        
+    
+            var circle_marker_b439de9dcd3046259269ea87e39044f4 = L.circleMarker(
+                [45.746303,4.835068],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8713440293970423,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_2042abf2ac574ad2a1121b4bc049c0c5 = L.popup({maxWidth: '300'});
+
+            
+                var html_203fd6a5b3164f278191b42d89e74cd2 = $('<div id="html_203fd6a5b3164f278191b42d89e74cd2" style="width: 100.0%; height: 100.0%;">Ecole de création graphique Lyon - e-artsup, 2 rue Du Professeur Charles Appleton</div>')[0];
+                popup_2042abf2ac574ad2a1121b4bc049c0c5.setContent(html_203fd6a5b3164f278191b42d89e74cd2);
+            
+
+            circle_marker_b439de9dcd3046259269ea87e39044f4.bindPopup(popup_2042abf2ac574ad2a1121b4bc049c0c5);
+
+            
+        
+    
+            var circle_marker_927a681ef2c6494f989023750d5c3da9 = L.circleMarker(
+                [45.76111618005954,4.831269979476928],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.8207663537898258,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_34318d6f0cb44d759493811ee2a0a01a = L.popup({maxWidth: '300'});
+
+            
+                var html_ef759c2321c649749bd729c6802c3d36 = $('<div id="html_ef759c2321c649749bd729c6802c3d36" style="width: 100.0%; height: 100.0%;">Galerie Racont&#39;Arts, 13 Quai De La Pecherie</div>')[0];
+                popup_34318d6f0cb44d759493811ee2a0a01a.setContent(html_ef759c2321c649749bd729c6802c3d36);
+            
+
+            circle_marker_927a681ef2c6494f989023750d5c3da9.bindPopup(popup_34318d6f0cb44d759493811ee2a0a01a);
+
+            
+        
+    
+            var circle_marker_9f134bb4149347698a4e25023c93e720 = L.circleMarker(
+                [45.76169329,4.83403736],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.627297557007467,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_33886b94ef594bae9ffe1b4832f35ea5 = L.popup({maxWidth: '300'});
+
+            
+                var html_a767a2e5ed9f4ebfa984733a1aac3b9e = $('<div id="html_a767a2e5ed9f4ebfa984733a1aac3b9e" style="width: 100.0%; height: 100.0%;">Galerie Artscenik, 13 rue des capucins</div>')[0];
+                popup_33886b94ef594bae9ffe1b4832f35ea5.setContent(html_a767a2e5ed9f4ebfa984733a1aac3b9e);
+            
+
+            circle_marker_9f134bb4149347698a4e25023c93e720.bindPopup(popup_33886b94ef594bae9ffe1b4832f35ea5);
+
+            
+        
+    
+            var circle_marker_eead50d0ea4443ed8d39932ecb9b087f = L.circleMarker(
+                [45.7572733,4.824603400000001],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.087442226766541,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_e8a2bd73cda645f29f324e268d9553e4 = L.popup({maxWidth: '300'});
+
+            
+                var html_4dc026a381ca47158e82dc0d5a01c2d6 = $('<div id="html_4dc026a381ca47158e82dc0d5a01c2d6" style="width: 100.0%; height: 100.0%;">Senioriales de Cavaillon, 62 Rue Saint-Georges</div>')[0];
+                popup_e8a2bd73cda645f29f324e268d9553e4.setContent(html_4dc026a381ca47158e82dc0d5a01c2d6);
+            
+
+            circle_marker_eead50d0ea4443ed8d39932ecb9b087f.bindPopup(popup_e8a2bd73cda645f29f324e268d9553e4);
+
+            
+        
+    
+            var circle_marker_0d8e133d38e745c8988d83c7fbc087a3 = L.circleMarker(
+                [45.76584871482802,4.8323914990255945],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.0635020629605547,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_325a9844b69f4d41b49c31b52828a3b8 = L.popup({maxWidth: '300'});
+
+            
+                var html_7a854d69a271497fa5e768e8d563cb54 = $('<div id="html_7a854d69a271497fa5e768e8d563cb54" style="width: 100.0%; height: 100.0%;">Arts 2000, 12 rue de la Platière</div>')[0];
+                popup_325a9844b69f4d41b49c31b52828a3b8.setContent(html_7a854d69a271497fa5e768e8d563cb54);
+            
+
+            circle_marker_0d8e133d38e745c8988d83c7fbc087a3.bindPopup(popup_325a9844b69f4d41b49c31b52828a3b8);
+
+            
+        
+    
+            var circle_marker_248029b8ab74485e8691c17d9df1dcd9 = L.circleMarker(
+                [45.767271,4.830991],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 3.035644764142975,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_caa64b7faca94cf7b635ab98e7bdc724 = L.popup({maxWidth: '300'});
+
+            
+                var html_3680bddd8b0c4302970d4f253de8eb9b = $('<div id="html_3680bddd8b0c4302970d4f253de8eb9b" style="width: 100.0%; height: 100.0%;">Music Center</div>')[0];
+                popup_caa64b7faca94cf7b635ab98e7bdc724.setContent(html_3680bddd8b0c4302970d4f253de8eb9b);
+            
+
+            circle_marker_248029b8ab74485e8691c17d9df1dcd9.bindPopup(popup_caa64b7faca94cf7b635ab98e7bdc724);
+
+            
+        
+    
+            var circle_marker_dc2f880e8ee248e49470e31d67b35e0c = L.circleMarker(
+                [45.76477729395646,4.846003090417724],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.964536447393685,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_afc0d148143b4878898b5cdcdeb849aa = L.popup({maxWidth: '300'});
+
+            
+                var html_d0b1c8c3491148938584ec5e8c4ee73c = $('<div id="html_d0b1c8c3491148938584ec5e8c4ee73c" style="width: 100.0%; height: 100.0%;">Orange Business Services, 139 rue Vendôme</div>')[0];
+                popup_afc0d148143b4878898b5cdcdeb849aa.setContent(html_d0b1c8c3491148938584ec5e8c4ee73c);
+            
+
+            circle_marker_dc2f880e8ee248e49470e31d67b35e0c.bindPopup(popup_afc0d148143b4878898b5cdcdeb849aa);
+
+            
+        
+    
+            var circle_marker_c57a41e641824844a1d43ba7205fed4f = L.circleMarker(
+                [45.75295889955018,4.831652487831115],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.890570983882003,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_d7bab289bfb94d89ba2e141acde8d74e = L.popup({maxWidth: '300'});
+
+            
+                var html_ecc9393b7e3f4319bd73dfee3d167cca = $('<div id="html_ecc9393b7e3f4319bd73dfee3d167cca" style="width: 100.0%; height: 100.0%;">Musée des tissus et des arts décoratifs, 17-19 rue de la Charité</div>')[0];
+                popup_d7bab289bfb94d89ba2e141acde8d74e.setContent(html_ecc9393b7e3f4319bd73dfee3d167cca);
+            
+
+            circle_marker_c57a41e641824844a1d43ba7205fed4f.bindPopup(popup_d7bab289bfb94d89ba2e141acde8d74e);
+
+            
+        
+    
+            var circle_marker_b33fb2a072e5447da46685a88dc09375 = L.circleMarker(
+                [45.75526793814094,4.831222274521577],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.868372808700213,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_b094d2a368f442fdb9049d6cb0a99fa9 = L.popup({maxWidth: '300'});
+
+            
+                var html_41578f1795484c3ca87af34f2b45d3d3 = $('<div id="html_41578f1795484c3ca87af34f2b45d3d3" style="width: 100.0%; height: 100.0%;">Bistrot des Arts, 20 rue Auguste Comte</div>')[0];
+                popup_b094d2a368f442fdb9049d6cb0a99fa9.setContent(html_41578f1795484c3ca87af34f2b45d3d3);
+            
+
+            circle_marker_b33fb2a072e5447da46685a88dc09375.bindPopup(popup_b094d2a368f442fdb9049d6cb0a99fa9);
+
+            
+        
+    
+            var circle_marker_9e5f9f756f1746f0a2b59a3cf0af43b9 = L.circleMarker(
+                [45.760245080366296,4.859843],
+                {
+  "bubblingMouseEvents": true,
+  "color": "yellow",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "yellow",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.625903587792483,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_70d9f2a4592c48cfad3aae046fe02101 = L.popup({maxWidth: '300'});
+
+            
+                var html_8ce1791146d94f0389c84b17b24fdd4b = $('<div id="html_8ce1791146d94f0389c84b17b24fdd4b" style="width: 100.0%; height: 100.0%;">Travelex</div>')[0];
+                popup_70d9f2a4592c48cfad3aae046fe02101.setContent(html_8ce1791146d94f0389c84b17b24fdd4b);
+            
+
+            circle_marker_9e5f9f756f1746f0a2b59a3cf0af43b9.bindPopup(popup_70d9f2a4592c48cfad3aae046fe02101);
+
+            
+        
+    
+            var circle_marker_50eaddbd303847afb7884fa1780bceb0 = L.circleMarker(
+                [45.77030582,4.83259848],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.6082082946340703,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_82fbe952976c433b86dc964d57af7587 = L.popup({maxWidth: '300'});
+
+            
+                var html_6c3cf6ef0acf42059ba050f11ffbd477 = $('<div id="html_6c3cf6ef0acf42059ba050f11ffbd477" style="width: 100.0%; height: 100.0%;">Galerie Des Arts Disparus, 23 rue de belfort</div>')[0];
+                popup_82fbe952976c433b86dc964d57af7587.setContent(html_6c3cf6ef0acf42059ba050f11ffbd477);
+            
+
+            circle_marker_50eaddbd303847afb7884fa1780bceb0.bindPopup(popup_82fbe952976c433b86dc964d57af7587);
+
+            
+        
+    
+            var circle_marker_23f2777d589342e1ae4940d8518ec68b = L.circleMarker(
+                [45.75607581757316,4.84515220122764],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.2618648633344995,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_eaf4fcbb7e6a4a36bbb93549604bb980 = L.popup({maxWidth: '300'});
+
+            
+                var html_dd3c07f950854dfeb370583aaf954fdf = $('<div id="html_dd3c07f950854dfeb370583aaf954fdf" style="width: 100.0%; height: 100.0%;">Dubaï Center</div>')[0];
+                popup_eaf4fcbb7e6a4a36bbb93549604bb980.setContent(html_dd3c07f950854dfeb370583aaf954fdf);
+            
+
+            circle_marker_23f2777d589342e1ae4940d8518ec68b.bindPopup(popup_eaf4fcbb7e6a4a36bbb93549604bb980);
+
+            
+        
+    
+            var circle_marker_efd63e6a41f1423c8a2c6579f20f1f3c = L.circleMarker(
+                [45.747483552872595,4.838327126592525],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.188113967345503,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_928fd22897104b30834a120ed3eb6a7e = L.popup({maxWidth: '300'});
+
+            
+                var html_7f5ead11725e4b3ca98c02aecfa54459 = $('<div id="html_7f5ead11725e4b3ca98c02aecfa54459" style="width: 100.0%; height: 100.0%;">Business Café, 38 rue Professeur Grignard</div>')[0];
+                popup_928fd22897104b30834a120ed3eb6a7e.setContent(html_7f5ead11725e4b3ca98c02aecfa54459);
+            
+
+            circle_marker_efd63e6a41f1423c8a2c6579f20f1f3c.bindPopup(popup_928fd22897104b30834a120ed3eb6a7e);
+
+            
+        
+    
+            var circle_marker_ac96d5abd25c44e98ac857b01d7ff7bb = L.circleMarker(
+                [45.76377620798037,4.827659345501197],
+                {
+  "bubblingMouseEvents": true,
+  "color": "blue",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "blue",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.058233821658792,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_b3735c8617d449c582bfd6fdbdac3526 = L.popup({maxWidth: '300'});
+
+            
+                var html_3d4acc0ee3154fc4b96d5c7a2fc127da = $('<div id="html_3d4acc0ee3154fc4b96d5c7a2fc127da" style="width: 100.0%; height: 100.0%;">Place Du Petit Collège, Place Du Petit Collège</div>')[0];
+                popup_b3735c8617d449c582bfd6fdbdac3526.setContent(html_3d4acc0ee3154fc4b96d5c7a2fc127da);
+            
+
+            circle_marker_ac96d5abd25c44e98ac857b01d7ff7bb.bindPopup(popup_b3735c8617d449c582bfd6fdbdac3526);
+
+            
+        
+    
+            var circle_marker_8ab2ecdd486d481891ace4e36516f598 = L.circleMarker(
+                [45.760873333488874,4.834056209694944],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 2.0023768411845,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_42fb62f6dfce4a20b9ae430b482a7f30 = L.popup({maxWidth: '300'});
+
+            
+                var html_0bdf712d31b1479e8a68aec6ffb8cb5c = $('<div id="html_0bdf712d31b1479e8a68aec6ffb8cb5c" style="width: 100.0%; height: 100.0%;">Mercure Lyon Centre Beaux-Arts, 73-75 Rue President</div>')[0];
+                popup_42fb62f6dfce4a20b9ae430b482a7f30.setContent(html_0bdf712d31b1479e8a68aec6ffb8cb5c);
+            
+
+            circle_marker_8ab2ecdd486d481891ace4e36516f598.bindPopup(popup_42fb62f6dfce4a20b9ae430b482a7f30);
+
+            
+        
+    
+            var circle_marker_cd9622f817ea4a33b23587d607cbeb12 = L.circleMarker(
+                [45.766948,4.831964],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.8098672754296021,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_8c46a0d48a8940babac01d978484d6d2 = L.popup({maxWidth: '300'});
+
+            
+                var html_9c31b52f00664a30abe74fa2c4ca62ab = $('<div id="html_9c31b52f00664a30abe74fa2c4ca62ab" style="width: 100.0%; height: 100.0%;">111 des Arts</div>')[0];
+                popup_8c46a0d48a8940babac01d978484d6d2.setContent(html_9c31b52f00664a30abe74fa2c4ca62ab);
+            
+
+            circle_marker_cd9622f817ea4a33b23587d607cbeb12.bindPopup(popup_8c46a0d48a8940babac01d978484d6d2);
+
+            
+        
+    
+            var circle_marker_adafeea7c08e4639b7c7fb05b9e73cd6 = L.circleMarker(
+                [45.76192758684824,4.858057662613884],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.573993151934317,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_430e9a8510bd426081e583581c38c2ce = L.popup({maxWidth: '300'});
+
+            
+                var html_c0fb946ea54d4ecd9e9505071bce57dd = $('<div id="html_c0fb946ea54d4ecd9e9505071bce57dd" style="width: 100.0%; height: 100.0%;">World Trade Center</div>')[0];
+                popup_430e9a8510bd426081e583581c38c2ce.setContent(html_c0fb946ea54d4ecd9e9505071bce57dd);
+            
+
+            circle_marker_adafeea7c08e4639b7c7fb05b9e73cd6.bindPopup(popup_430e9a8510bd426081e583581c38c2ce);
+
+            
+        
+    
+            var circle_marker_c18af45cc574436d8ba77046722c6b28 = L.circleMarker(
+                [45.767296566796034,4.836863726377487],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.4059480102966284,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_35c05070930f485eb42a4f81f4d4bf6f = L.popup({maxWidth: '300'});
+
+            
+                var html_184076986e6143818cd531d193e0d746 = $('<div id="html_184076986e6143818cd531d193e0d746" style="width: 100.0%; height: 100.0%;">Le Géant des Beaux-Arts Lyon Presqu’île, 3 rue du Garet</div>')[0];
+                popup_35c05070930f485eb42a4f81f4d4bf6f.setContent(html_184076986e6143818cd531d193e0d746);
+            
+
+            circle_marker_c18af45cc574436d8ba77046722c6b28.bindPopup(popup_35c05070930f485eb42a4f81f4d4bf6f);
+
+            
+        
+    
+            var circle_marker_2c9cb02110174cf59071be947de7d466 = L.circleMarker(
+                [45.76722494477181,4.833931709070366],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.315188258342391,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_63dea629b3b4415884af31a2cc6a4352 = L.popup({maxWidth: '300'});
+
+            
+                var html_0ed5c2c055a943699c3147c534dd6332 = $('<div id="html_0ed5c2c055a943699c3147c534dd6332" style="width: 100.0%; height: 100.0%;">Palais Des Arts</div>')[0];
+                popup_63dea629b3b4415884af31a2cc6a4352.setContent(html_0ed5c2c055a943699c3147c534dd6332);
+            
+
+            circle_marker_2c9cb02110174cf59071be947de7d466.bindPopup(popup_63dea629b3b4415884af31a2cc6a4352);
+
+            
+        
+    
+            var circle_marker_1744522022244966b0b1f6dda693b2e0 = L.circleMarker(
+                [45.76677154225662,4.833712168177134],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.2545315012491698,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_293e2e8e8df740aeaf7b9c2c98f9dfad = L.popup({maxWidth: '300'});
+
+            
+                var html_0e841cc5c80e474bbae0ac34016d9f92 = $('<div id="html_0e841cc5c80e474bbae0ac34016d9f92" style="width: 100.0%; height: 100.0%;">Musée des Beaux-Arts, 20 Place des Terreaux</div>')[0];
+                popup_293e2e8e8df740aeaf7b9c2c98f9dfad.setContent(html_0e841cc5c80e474bbae0ac34016d9f92);
+            
+
+            circle_marker_1744522022244966b0b1f6dda693b2e0.bindPopup(popup_293e2e8e8df740aeaf7b9c2c98f9dfad);
+
+            
+        
+    
+            var circle_marker_3c1e5929e4fb46b3a1a63c7e22fd9d4a = L.circleMarker(
+                [45.766803522327585,4.833660334218602],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 1.1470559461063505,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_bc9e9ab50a83430299d2c9a60bec3f84 = L.popup({maxWidth: '300'});
+
+            
+                var html_a541e3f5c68d4ccf934b9eed0fcb45f5 = $('<div id="html_a541e3f5c68d4ccf934b9eed0fcb45f5" style="width: 100.0%; height: 100.0%;">Jardins du Palais Saint-Pierre</div>')[0];
+                popup_bc9e9ab50a83430299d2c9a60bec3f84.setContent(html_a541e3f5c68d4ccf934b9eed0fcb45f5);
+            
+
+            circle_marker_3c1e5929e4fb46b3a1a63c7e22fd9d4a.bindPopup(popup_bc9e9ab50a83430299d2c9a60bec3f84);
+
+            
+        
+    
+            var circle_marker_a23b4c10a9794580b35387b073bdbff4 = L.circleMarker(
+                [45.76778266041795,4.8178365266831795],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.8859973737825481,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_a959fcf9a4d947938ba26906fd29f266 = L.popup({maxWidth: '300'});
+
+            
+                var html_4ad01b14e7824b00b5ba8dce37b5f8e3 = $('<div id="html_4ad01b14e7824b00b5ba8dce37b5f8e3" style="width: 100.0%; height: 100.0%;">Quai des Arts, 8 bis Quai Saint-Vincent</div>')[0];
+                popup_a959fcf9a4d947938ba26906fd29f266.setContent(html_4ad01b14e7824b00b5ba8dce37b5f8e3);
+            
+
+            circle_marker_a23b4c10a9794580b35387b073bdbff4.bindPopup(popup_a959fcf9a4d947938ba26906fd29f266);
+
+            
+        
+    
+            var circle_marker_89ca5967adb44878baf160b2836e7535 = L.circleMarker(
+                [45.767957039927936,4.8174190521240225],
+                {
+  "bubblingMouseEvents": true,
+  "color": "green",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "green",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.14413633260545602,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_2bd2745a074a468db7c6fc496d0540a7 = L.popup({maxWidth: '300'});
+
+            
+                var html_e885120af9604d9c927a30ba380a91a2 = $('<div id="html_e885120af9604d9c927a30ba380a91a2" style="width: 100.0%; height: 100.0%;">Ensba - Ecole Supérieure Nationale des Beaux Arts de Lyon, 18 quai saint vincent</div>')[0];
+                popup_2bd2745a074a468db7c6fc496d0540a7.setContent(html_e885120af9604d9c927a30ba380a91a2);
+            
+
+            circle_marker_89ca5967adb44878baf160b2836e7535.bindPopup(popup_2bd2745a074a468db7c6fc496d0540a7);
+
+            
+        
+    
+            var circle_marker_9adc03bf47324ffd80960a7c200856cf = L.circleMarker(
+                [45.75633195443295,4.870350407973939],
+                {
+  "bubblingMouseEvents": true,
+  "color": "purple",
+  "dashArray": null,
+  "dashOffset": null,
+  "fill": true,
+  "fillColor": "purple",
+  "fillOpacity": 0.7,
+  "fillRule": "evenodd",
+  "lineCap": "round",
+  "lineJoin": "round",
+  "opacity": 1.0,
+  "radius": 0.0,
+  "stroke": true,
+  "weight": 3
+}
+                ).addTo(map_79c5ff91cb68473b9ef4b8377375763c);
+            
+    
+            var popup_3fe86a51be924c6baae7a6f99bc0477a = L.popup({maxWidth: '300'});
+
+            
+                var html_d0c79f2cdddb403090e5e33511c44c2c = $('<div id="html_d0c79f2cdddb403090e5e33511c44c2c" style="width: 100.0%; height: 100.0%;">Indian food center, 280 Rue Paul Bert</div>')[0];
+                popup_3fe86a51be924c6baae7a6f99bc0477a.setContent(html_d0c79f2cdddb403090e5e33511c44c2c);
+            
+
+            circle_marker_9adc03bf47324ffd80960a7c200856cf.bindPopup(popup_3fe86a51be924c6baae7a6f99bc0477a);
+
+            
+        
+</script>
